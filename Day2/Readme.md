@@ -1,13 +1,18 @@
 # Day 2 of 100 Days of Homelab
  - Created a template of Windows Server 2022 (with GUI)
+    - Preconfigured time
+    - While not done, probably preferrable to run 
  - Two linked clones:
     - Active Directory `MR-HL-ADDC` Server
         - Directory Services
         - Certificate Services
+        - Static IP set to `172.20.2.3`
     - Remote Access `MR-HL-RDP` Server
         - Remote Desktop
         - Remote Apps
         - Windows Deployment Services
+        - Static IP set to `172.20.2.5`
+        - Note: this one ***NEEDS*** to be running with a GUI
  - On `MR-HL-ADDC`:
     - Installed and configured an Active Directory domain as `monicarose.com`
     - Created a non-Administrator account

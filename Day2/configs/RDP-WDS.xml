@@ -1,0 +1,1925 @@
+<Objs Version="1.1.0.1" xmlns="http://schemas.microsoft.com/powershell/2004/04">
+  <Obj RefId="0">
+    <TN RefId="0">
+      <T>System.Collections.ObjectModel.Collection`1[[System.Management.Automation.PSObject, System.Management.Automation, Version=3.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35]]</T>
+      <T>System.Object</T>
+    </TN>
+    <LST>
+      <Obj RefId="1">
+        <TN RefId="1">
+          <T>Microsoft.Management.Infrastructure.CimInstance#ROOT/Microsoft/Windows/ServerManager/ServerComponent_NET_Framework_45_ASPNET</T>
+          <T>Microsoft.Management.Infrastructure.CimInstance#ROOT/Microsoft/Windows/ServerManager/MSFT_ServerManagerServerComponentDescriptor</T>
+          <T>Microsoft.Management.Infrastructure.CimInstance#ServerComponent_NET_Framework_45_ASPNET</T>
+          <T>Microsoft.Management.Infrastructure.CimInstance#MSFT_ServerManagerServerComponentDescriptor</T>
+          <T>Microsoft.Management.Infrastructure.CimInstance</T>
+          <T>System.Object</T>
+        </TN>
+        <ToString>ServerComponent_NET_Framework_45_ASPNET</ToString>
+        <Props>
+          <S N="PSComputerName">WIN-HIOQRG66VRJ</S>
+        </Props>
+        <MS>
+          <I32 N="NumericId">429</I32>
+          <Obj N="__ClassMetadata" RefId="2">
+            <TN RefId="2">
+              <T>System.Collections.ArrayList</T>
+              <T>System.Object</T>
+            </TN>
+            <LST>
+              <Obj RefId="3">
+                <MS>
+                  <S N="ClassName">MSFT_ServerManagerServerComponentDescriptor</S>
+                  <S N="Namespace">ROOT/Microsoft/Windows/ServerManager</S>
+                  <S N="ServerName">WIN-HIOQRG66VRJ</S>
+                  <I32 N="Hash">-419347112</I32>
+                  <S N="MiXml">&lt;CLASS NAME="MSFT_ServerManagerServerComponentDescriptor"&gt;&lt;QUALIFIER NAME="dynamic" TYPE="boolean"&gt;&lt;VALUE&gt;true&lt;/VALUE&gt;&lt;/QUALIFIER&gt;&lt;QUALIFIER NAME="locale" TYPE="sint32" TOSUBCLASS="false"&gt;&lt;VALUE&gt;1033&lt;/VALUE&gt;&lt;/QUALIFIER&gt;&lt;QUALIFIER NAME="provider" TYPE="string"&gt;&lt;VALUE&gt;deploymentprovider&lt;/VALUE&gt;&lt;/QUALIFIER&gt;&lt;/CLASS&gt;</S>
+                </MS>
+              </Obj>
+              <Obj RefId="4">
+                <MS>
+                  <S N="ClassName">ServerComponent_NET_Framework_45_ASPNET</S>
+                  <S N="Namespace">ROOT/Microsoft/Windows/ServerManager</S>
+                  <S N="ServerName">WIN-HIOQRG66VRJ</S>
+                  <I32 N="Hash">-419402232</I32>
+                  <S N="MiXml">&lt;CLASS NAME="ServerComponent_NET_Framework_45_ASPNET" SUPERCLASS="MSFT_ServerManagerServerComponentDescriptor"&gt;&lt;QUALIFIER NAME="dynamic" TYPE="boolean"&gt;&lt;VALUE&gt;true&lt;/VALUE&gt;&lt;/QUALIFIER&gt;&lt;QUALIFIER NAME="provider" TYPE="string"&gt;&lt;VALUE&gt;deploymentprovider&lt;/VALUE&gt;&lt;/QUALIFIER&gt;&lt;QUALIFIER NAME="ClassVersion" TYPE="string"&gt;&lt;VALUE&gt;4.5.0&lt;/VALUE&gt;&lt;/QUALIFIER&gt;&lt;QUALIFIER NAME="DisplayName" TYPE="string" TRANSLATABLE="true"&gt;&lt;VALUE&gt;NET-Framework-45-ASPNET&lt;/VALUE&gt;&lt;/QUALIFIER&gt;&lt;/CLASS&gt;</S>
+                </MS>
+              </Obj>
+            </LST>
+          </Obj>
+        </MS>
+      </Obj>
+      <Obj RefId="5">
+        <TN RefId="3">
+          <T>Microsoft.Management.Infrastructure.CimInstance#ROOT/Microsoft/Windows/ServerManager/ServerComponent_NPAS</T>
+          <T>Microsoft.Management.Infrastructure.CimInstance#ROOT/Microsoft/Windows/ServerManager/MSFT_ServerManagerServerComponentDescriptor</T>
+          <T>Microsoft.Management.Infrastructure.CimInstance#ServerComponent_NPAS</T>
+          <T>Microsoft.Management.Infrastructure.CimInstance#MSFT_ServerManagerServerComponentDescriptor</T>
+          <T>Microsoft.Management.Infrastructure.CimInstance</T>
+          <T>System.Object</T>
+        </TN>
+        <ToString>ServerComponent_NPAS</ToString>
+        <Props>
+          <S N="PSComputerName">WIN-HIOQRG66VRJ</S>
+        </Props>
+        <MS>
+          <I32 N="NumericId">14</I32>
+          <Obj N="__ClassMetadata" RefId="6">
+            <TNRef RefId="2" />
+            <LST>
+              <Obj RefId="7">
+                <MS>
+                  <S N="ClassName">MSFT_ServerManagerServerComponentDescriptor</S>
+                  <S N="Namespace">ROOT/Microsoft/Windows/ServerManager</S>
+                  <S N="ServerName">WIN-HIOQRG66VRJ</S>
+                  <I32 N="Hash">-419347112</I32>
+                </MS>
+              </Obj>
+              <Obj RefId="8">
+                <MS>
+                  <S N="ClassName">ServerComponent_NPAS</S>
+                  <S N="Namespace">ROOT/Microsoft/Windows/ServerManager</S>
+                  <S N="ServerName">WIN-HIOQRG66VRJ</S>
+                  <I32 N="Hash">-419368952</I32>
+                  <S N="MiXml">&lt;CLASS NAME="ServerComponent_NPAS" SUPERCLASS="MSFT_ServerManagerServerComponentDescriptor"&gt;&lt;QUALIFIER NAME="dynamic" TYPE="boolean"&gt;&lt;VALUE&gt;true&lt;/VALUE&gt;&lt;/QUALIFIER&gt;&lt;QUALIFIER NAME="provider" TYPE="string"&gt;&lt;VALUE&gt;deploymentprovider&lt;/VALUE&gt;&lt;/QUALIFIER&gt;&lt;QUALIFIER NAME="ClassVersion" TYPE="string"&gt;&lt;VALUE&gt;10.0.0&lt;/VALUE&gt;&lt;/QUALIFIER&gt;&lt;QUALIFIER NAME="DisplayName" TYPE="string" TRANSLATABLE="true"&gt;&lt;VALUE&gt;NPAS&lt;/VALUE&gt;&lt;/QUALIFIER&gt;&lt;/CLASS&gt;</S>
+                </MS>
+              </Obj>
+            </LST>
+          </Obj>
+        </MS>
+      </Obj>
+      <Obj RefId="9">
+        <TN RefId="4">
+          <T>Microsoft.Management.Infrastructure.CimInstance#ROOT/Microsoft/Windows/ServerManager/ServerComponent_RDS_Connection_Broker</T>
+          <T>Microsoft.Management.Infrastructure.CimInstance#ROOT/Microsoft/Windows/ServerManager/MSFT_ServerManagerServerComponentDescriptor</T>
+          <T>Microsoft.Management.Infrastructure.CimInstance#ServerComponent_RDS_Connection_Broker</T>
+          <T>Microsoft.Management.Infrastructure.CimInstance#MSFT_ServerManagerServerComponentDescriptor</T>
+          <T>Microsoft.Management.Infrastructure.CimInstance</T>
+          <T>System.Object</T>
+        </TN>
+        <ToString>ServerComponent_RDS_Connection_Broker</ToString>
+        <Props>
+          <S N="PSComputerName">WIN-HIOQRG66VRJ</S>
+        </Props>
+        <MS>
+          <I32 N="NumericId">133</I32>
+          <Obj N="__ClassMetadata" RefId="10">
+            <TNRef RefId="2" />
+            <LST>
+              <Obj RefId="11">
+                <MS>
+                  <S N="ClassName">MSFT_ServerManagerServerComponentDescriptor</S>
+                  <S N="Namespace">ROOT/Microsoft/Windows/ServerManager</S>
+                  <S N="ServerName">WIN-HIOQRG66VRJ</S>
+                  <I32 N="Hash">-419347112</I32>
+                </MS>
+              </Obj>
+              <Obj RefId="12">
+                <MS>
+                  <S N="ClassName">ServerComponent_RDS_Connection_Broker</S>
+                  <S N="Namespace">ROOT/Microsoft/Windows/ServerManager</S>
+                  <S N="ServerName">WIN-HIOQRG66VRJ</S>
+                  <I32 N="Hash">-419354392</I32>
+                  <S N="MiXml">&lt;CLASS NAME="ServerComponent_RDS_Connection_Broker" SUPERCLASS="MSFT_ServerManagerServerComponentDescriptor"&gt;&lt;QUALIFIER NAME="dynamic" TYPE="boolean"&gt;&lt;VALUE&gt;true&lt;/VALUE&gt;&lt;/QUALIFIER&gt;&lt;QUALIFIER NAME="provider" TYPE="string"&gt;&lt;VALUE&gt;deploymentprovider&lt;/VALUE&gt;&lt;/QUALIFIER&gt;&lt;QUALIFIER NAME="ClassVersion" TYPE="string"&gt;&lt;VALUE&gt;0.0.0&lt;/VALUE&gt;&lt;/QUALIFIER&gt;&lt;QUALIFIER NAME="DisplayName" TYPE="string" TRANSLATABLE="true"&gt;&lt;VALUE&gt;RDS-Connection-Broker&lt;/VALUE&gt;&lt;/QUALIFIER&gt;&lt;/CLASS&gt;</S>
+                </MS>
+              </Obj>
+            </LST>
+          </Obj>
+        </MS>
+      </Obj>
+      <Obj RefId="13">
+        <TN RefId="5">
+          <T>Microsoft.Management.Infrastructure.CimInstance#ROOT/Microsoft/Windows/ServerManager/ServerComponent_RDS_Gateway</T>
+          <T>Microsoft.Management.Infrastructure.CimInstance#ROOT/Microsoft/Windows/ServerManager/MSFT_ServerManagerServerComponentDescriptor</T>
+          <T>Microsoft.Management.Infrastructure.CimInstance#ServerComponent_RDS_Gateway</T>
+          <T>Microsoft.Management.Infrastructure.CimInstance#MSFT_ServerManagerServerComponentDescriptor</T>
+          <T>Microsoft.Management.Infrastructure.CimInstance</T>
+          <T>System.Object</T>
+        </TN>
+        <ToString>ServerComponent_RDS_Gateway</ToString>
+        <Props>
+          <S N="PSComputerName">WIN-HIOQRG66VRJ</S>
+        </Props>
+        <MS>
+          <I32 N="NumericId">132</I32>
+          <Obj N="__ClassMetadata" RefId="14">
+            <TNRef RefId="2" />
+            <LST>
+              <Obj RefId="15">
+                <MS>
+                  <S N="ClassName">MSFT_ServerManagerServerComponentDescriptor</S>
+                  <S N="Namespace">ROOT/Microsoft/Windows/ServerManager</S>
+                  <S N="ServerName">WIN-HIOQRG66VRJ</S>
+                  <I32 N="Hash">-419347112</I32>
+                </MS>
+              </Obj>
+              <Obj RefId="16">
+                <MS>
+                  <S N="ClassName">ServerComponent_RDS_Gateway</S>
+                  <S N="Namespace">ROOT/Microsoft/Windows/ServerManager</S>
+                  <S N="ServerName">WIN-HIOQRG66VRJ</S>
+                  <I32 N="Hash">-419375192</I32>
+                  <S N="MiXml">&lt;CLASS NAME="ServerComponent_RDS_Gateway" SUPERCLASS="MSFT_ServerManagerServerComponentDescriptor"&gt;&lt;QUALIFIER NAME="dynamic" TYPE="boolean"&gt;&lt;VALUE&gt;true&lt;/VALUE&gt;&lt;/QUALIFIER&gt;&lt;QUALIFIER NAME="provider" TYPE="string"&gt;&lt;VALUE&gt;deploymentprovider&lt;/VALUE&gt;&lt;/QUALIFIER&gt;&lt;QUALIFIER NAME="ClassVersion" TYPE="string"&gt;&lt;VALUE&gt;0.0.0&lt;/VALUE&gt;&lt;/QUALIFIER&gt;&lt;QUALIFIER NAME="DisplayName" TYPE="string" TRANSLATABLE="true"&gt;&lt;VALUE&gt;RDS-Gateway&lt;/VALUE&gt;&lt;/QUALIFIER&gt;&lt;/CLASS&gt;</S>
+                </MS>
+              </Obj>
+            </LST>
+          </Obj>
+        </MS>
+      </Obj>
+      <Obj RefId="17">
+        <TN RefId="6">
+          <T>Microsoft.Management.Infrastructure.CimInstance#ROOT/Microsoft/Windows/ServerManager/ServerComponent_RDS_Licensing</T>
+          <T>Microsoft.Management.Infrastructure.CimInstance#ROOT/Microsoft/Windows/ServerManager/MSFT_ServerManagerServerComponentDescriptor</T>
+          <T>Microsoft.Management.Infrastructure.CimInstance#ServerComponent_RDS_Licensing</T>
+          <T>Microsoft.Management.Infrastructure.CimInstance#MSFT_ServerManagerServerComponentDescriptor</T>
+          <T>Microsoft.Management.Infrastructure.CimInstance</T>
+          <T>System.Object</T>
+        </TN>
+        <ToString>ServerComponent_RDS_Licensing</ToString>
+        <Props>
+          <S N="PSComputerName">WIN-HIOQRG66VRJ</S>
+        </Props>
+        <MS>
+          <I32 N="NumericId">131</I32>
+          <Obj N="__ClassMetadata" RefId="18">
+            <TNRef RefId="2" />
+            <LST>
+              <Obj RefId="19">
+                <MS>
+                  <S N="ClassName">MSFT_ServerManagerServerComponentDescriptor</S>
+                  <S N="Namespace">ROOT/Microsoft/Windows/ServerManager</S>
+                  <S N="ServerName">WIN-HIOQRG66VRJ</S>
+                  <I32 N="Hash">-419347112</I32>
+                </MS>
+              </Obj>
+              <Obj RefId="20">
+                <MS>
+                  <S N="ClassName">ServerComponent_RDS_Licensing</S>
+                  <S N="Namespace">ROOT/Microsoft/Windows/ServerManager</S>
+                  <S N="ServerName">WIN-HIOQRG66VRJ</S>
+                  <I32 N="Hash">-419376232</I32>
+                  <S N="MiXml">&lt;CLASS NAME="ServerComponent_RDS_Licensing" SUPERCLASS="MSFT_ServerManagerServerComponentDescriptor"&gt;&lt;QUALIFIER NAME="dynamic" TYPE="boolean"&gt;&lt;VALUE&gt;true&lt;/VALUE&gt;&lt;/QUALIFIER&gt;&lt;QUALIFIER NAME="provider" TYPE="string"&gt;&lt;VALUE&gt;deploymentprovider&lt;/VALUE&gt;&lt;/QUALIFIER&gt;&lt;QUALIFIER NAME="ClassVersion" TYPE="string"&gt;&lt;VALUE&gt;0.0.0&lt;/VALUE&gt;&lt;/QUALIFIER&gt;&lt;QUALIFIER NAME="DisplayName" TYPE="string" TRANSLATABLE="true"&gt;&lt;VALUE&gt;RDS-Licensing&lt;/VALUE&gt;&lt;/QUALIFIER&gt;&lt;/CLASS&gt;</S>
+                </MS>
+              </Obj>
+            </LST>
+          </Obj>
+        </MS>
+      </Obj>
+      <Obj RefId="21">
+        <TN RefId="7">
+          <T>Microsoft.Management.Infrastructure.CimInstance#ROOT/Microsoft/Windows/ServerManager/ServerComponent_RDS_Licensing_UI</T>
+          <T>Microsoft.Management.Infrastructure.CimInstance#ROOT/Microsoft/Windows/ServerManager/MSFT_ServerManagerServerComponentDescriptor</T>
+          <T>Microsoft.Management.Infrastructure.CimInstance#ServerComponent_RDS_Licensing_UI</T>
+          <T>Microsoft.Management.Infrastructure.CimInstance#MSFT_ServerManagerServerComponentDescriptor</T>
+          <T>Microsoft.Management.Infrastructure.CimInstance</T>
+          <T>System.Object</T>
+        </TN>
+        <ToString>ServerComponent_RDS_Licensing_UI</ToString>
+        <Props>
+          <S N="PSComputerName">WIN-HIOQRG66VRJ</S>
+        </Props>
+        <MS>
+          <I32 N="NumericId">286</I32>
+          <Obj N="__ClassMetadata" RefId="22">
+            <TNRef RefId="2" />
+            <LST>
+              <Obj RefId="23">
+                <MS>
+                  <S N="ClassName">MSFT_ServerManagerServerComponentDescriptor</S>
+                  <S N="Namespace">ROOT/Microsoft/Windows/ServerManager</S>
+                  <S N="ServerName">WIN-HIOQRG66VRJ</S>
+                  <I32 N="Hash">-419347112</I32>
+                </MS>
+              </Obj>
+              <Obj RefId="24">
+                <MS>
+                  <S N="ClassName">ServerComponent_RDS_Licensing_UI</S>
+                  <S N="Namespace">ROOT/Microsoft/Windows/ServerManager</S>
+                  <S N="ServerName">WIN-HIOQRG66VRJ</S>
+                  <I32 N="Hash">-419372072</I32>
+                  <S N="MiXml">&lt;CLASS NAME="ServerComponent_RDS_Licensing_UI" SUPERCLASS="MSFT_ServerManagerServerComponentDescriptor"&gt;&lt;QUALIFIER NAME="dynamic" TYPE="boolean"&gt;&lt;VALUE&gt;true&lt;/VALUE&gt;&lt;/QUALIFIER&gt;&lt;QUALIFIER NAME="provider" TYPE="string"&gt;&lt;VALUE&gt;deploymentprovider&lt;/VALUE&gt;&lt;/QUALIFIER&gt;&lt;QUALIFIER NAME="ClassVersion" TYPE="string"&gt;&lt;VALUE&gt;0.0.0&lt;/VALUE&gt;&lt;/QUALIFIER&gt;&lt;QUALIFIER NAME="DisplayName" TYPE="string" TRANSLATABLE="true"&gt;&lt;VALUE&gt;RDS-Licensing-UI&lt;/VALUE&gt;&lt;/QUALIFIER&gt;&lt;/CLASS&gt;</S>
+                </MS>
+              </Obj>
+            </LST>
+          </Obj>
+        </MS>
+      </Obj>
+      <Obj RefId="25">
+        <TN RefId="8">
+          <T>Microsoft.Management.Infrastructure.CimInstance#ROOT/Microsoft/Windows/ServerManager/ServerComponent_RDS_RD_Server</T>
+          <T>Microsoft.Management.Infrastructure.CimInstance#ROOT/Microsoft/Windows/ServerManager/MSFT_ServerManagerServerComponentDescriptor</T>
+          <T>Microsoft.Management.Infrastructure.CimInstance#ServerComponent_RDS_RD_Server</T>
+          <T>Microsoft.Management.Infrastructure.CimInstance#MSFT_ServerManagerServerComponentDescriptor</T>
+          <T>Microsoft.Management.Infrastructure.CimInstance</T>
+          <T>System.Object</T>
+        </TN>
+        <ToString>ServerComponent_RDS_RD_Server</ToString>
+        <Props>
+          <S N="PSComputerName">WIN-HIOQRG66VRJ</S>
+        </Props>
+        <MS>
+          <I32 N="NumericId">130</I32>
+          <Obj N="__ClassMetadata" RefId="26">
+            <TNRef RefId="2" />
+            <LST>
+              <Obj RefId="27">
+                <MS>
+                  <S N="ClassName">MSFT_ServerManagerServerComponentDescriptor</S>
+                  <S N="Namespace">ROOT/Microsoft/Windows/ServerManager</S>
+                  <S N="ServerName">WIN-HIOQRG66VRJ</S>
+                  <I32 N="Hash">-419347112</I32>
+                </MS>
+              </Obj>
+              <Obj RefId="28">
+                <MS>
+                  <S N="ClassName">ServerComponent_RDS_RD_Server</S>
+                  <S N="Namespace">ROOT/Microsoft/Windows/ServerManager</S>
+                  <S N="ServerName">WIN-HIOQRG66VRJ</S>
+                  <I32 N="Hash">-412035528</I32>
+                  <S N="MiXml">&lt;CLASS NAME="ServerComponent_RDS_RD_Server" SUPERCLASS="MSFT_ServerManagerServerComponentDescriptor"&gt;&lt;QUALIFIER NAME="dynamic" TYPE="boolean"&gt;&lt;VALUE&gt;true&lt;/VALUE&gt;&lt;/QUALIFIER&gt;&lt;QUALIFIER NAME="provider" TYPE="string"&gt;&lt;VALUE&gt;deploymentprovider&lt;/VALUE&gt;&lt;/QUALIFIER&gt;&lt;QUALIFIER NAME="ClassVersion" TYPE="string"&gt;&lt;VALUE&gt;0.0.0&lt;/VALUE&gt;&lt;/QUALIFIER&gt;&lt;QUALIFIER NAME="DisplayName" TYPE="string" TRANSLATABLE="true"&gt;&lt;VALUE&gt;RDS-RD-Server&lt;/VALUE&gt;&lt;/QUALIFIER&gt;&lt;/CLASS&gt;</S>
+                </MS>
+              </Obj>
+            </LST>
+          </Obj>
+        </MS>
+      </Obj>
+      <Obj RefId="29">
+        <TN RefId="9">
+          <T>Microsoft.Management.Infrastructure.CimInstance#ROOT/Microsoft/Windows/ServerManager/ServerComponent_RDS_Web_Access</T>
+          <T>Microsoft.Management.Infrastructure.CimInstance#ROOT/Microsoft/Windows/ServerManager/MSFT_ServerManagerServerComponentDescriptor</T>
+          <T>Microsoft.Management.Infrastructure.CimInstance#ServerComponent_RDS_Web_Access</T>
+          <T>Microsoft.Management.Infrastructure.CimInstance#MSFT_ServerManagerServerComponentDescriptor</T>
+          <T>Microsoft.Management.Infrastructure.CimInstance</T>
+          <T>System.Object</T>
+        </TN>
+        <ToString>ServerComponent_RDS_Web_Access</ToString>
+        <Props>
+          <S N="PSComputerName">WIN-HIOQRG66VRJ</S>
+        </Props>
+        <MS>
+          <I32 N="NumericId">134</I32>
+          <Obj N="__ClassMetadata" RefId="30">
+            <TNRef RefId="2" />
+            <LST>
+              <Obj RefId="31">
+                <MS>
+                  <S N="ClassName">MSFT_ServerManagerServerComponentDescriptor</S>
+                  <S N="Namespace">ROOT/Microsoft/Windows/ServerManager</S>
+                  <S N="ServerName">WIN-HIOQRG66VRJ</S>
+                  <I32 N="Hash">-419347112</I32>
+                </MS>
+              </Obj>
+              <Obj RefId="32">
+                <MS>
+                  <S N="ClassName">ServerComponent_RDS_Web_Access</S>
+                  <S N="Namespace">ROOT/Microsoft/Windows/ServerManager</S>
+                  <S N="ServerName">WIN-HIOQRG66VRJ</S>
+                  <I32 N="Hash">-412031368</I32>
+                  <S N="MiXml">&lt;CLASS NAME="ServerComponent_RDS_Web_Access" SUPERCLASS="MSFT_ServerManagerServerComponentDescriptor"&gt;&lt;QUALIFIER NAME="dynamic" TYPE="boolean"&gt;&lt;VALUE&gt;true&lt;/VALUE&gt;&lt;/QUALIFIER&gt;&lt;QUALIFIER NAME="provider" TYPE="string"&gt;&lt;VALUE&gt;deploymentprovider&lt;/VALUE&gt;&lt;/QUALIFIER&gt;&lt;QUALIFIER NAME="ClassVersion" TYPE="string"&gt;&lt;VALUE&gt;0.0.0&lt;/VALUE&gt;&lt;/QUALIFIER&gt;&lt;QUALIFIER NAME="DisplayName" TYPE="string" TRANSLATABLE="true"&gt;&lt;VALUE&gt;RDS-Web-Access&lt;/VALUE&gt;&lt;/QUALIFIER&gt;&lt;/CLASS&gt;</S>
+                </MS>
+              </Obj>
+            </LST>
+          </Obj>
+        </MS>
+      </Obj>
+      <Obj RefId="33">
+        <TN RefId="10">
+          <T>Microsoft.Management.Infrastructure.CimInstance#ROOT/Microsoft/Windows/ServerManager/ServerComponent_Remote_Desktop_Services</T>
+          <T>Microsoft.Management.Infrastructure.CimInstance#ROOT/Microsoft/Windows/ServerManager/MSFT_ServerManagerServerComponentDescriptor</T>
+          <T>Microsoft.Management.Infrastructure.CimInstance#ServerComponent_Remote_Desktop_Services</T>
+          <T>Microsoft.Management.Infrastructure.CimInstance#MSFT_ServerManagerServerComponentDescriptor</T>
+          <T>Microsoft.Management.Infrastructure.CimInstance</T>
+          <T>System.Object</T>
+        </TN>
+        <ToString>ServerComponent_Remote_Desktop_Services</ToString>
+        <Props>
+          <S N="PSComputerName">WIN-HIOQRG66VRJ</S>
+        </Props>
+        <MS>
+          <I32 N="NumericId">18</I32>
+          <Obj N="__ClassMetadata" RefId="34">
+            <TNRef RefId="2" />
+            <LST>
+              <Obj RefId="35">
+                <MS>
+                  <S N="ClassName">MSFT_ServerManagerServerComponentDescriptor</S>
+                  <S N="Namespace">ROOT/Microsoft/Windows/ServerManager</S>
+                  <S N="ServerName">WIN-HIOQRG66VRJ</S>
+                  <I32 N="Hash">-419347112</I32>
+                </MS>
+              </Obj>
+              <Obj RefId="36">
+                <MS>
+                  <S N="ClassName">ServerComponent_Remote_Desktop_Services</S>
+                  <S N="Namespace">ROOT/Microsoft/Windows/ServerManager</S>
+                  <S N="ServerName">WIN-HIOQRG66VRJ</S>
+                  <I32 N="Hash">-412024088</I32>
+                  <S N="MiXml">&lt;CLASS NAME="ServerComponent_Remote_Desktop_Services" SUPERCLASS="MSFT_ServerManagerServerComponentDescriptor"&gt;&lt;QUALIFIER NAME="dynamic" TYPE="boolean"&gt;&lt;VALUE&gt;true&lt;/VALUE&gt;&lt;/QUALIFIER&gt;&lt;QUALIFIER NAME="provider" TYPE="string"&gt;&lt;VALUE&gt;deploymentprovider&lt;/VALUE&gt;&lt;/QUALIFIER&gt;&lt;QUALIFIER NAME="ClassVersion" TYPE="string"&gt;&lt;VALUE&gt;10.0.0&lt;/VALUE&gt;&lt;/QUALIFIER&gt;&lt;QUALIFIER NAME="DisplayName" TYPE="string" TRANSLATABLE="true"&gt;&lt;VALUE&gt;Remote-Desktop-Services&lt;/VALUE&gt;&lt;/QUALIFIER&gt;&lt;/CLASS&gt;</S>
+                </MS>
+              </Obj>
+            </LST>
+          </Obj>
+        </MS>
+      </Obj>
+      <Obj RefId="37">
+        <TN RefId="11">
+          <T>Microsoft.Management.Infrastructure.CimInstance#ROOT/Microsoft/Windows/ServerManager/ServerComponent_RPC_over_HTTP_Proxy</T>
+          <T>Microsoft.Management.Infrastructure.CimInstance#ROOT/Microsoft/Windows/ServerManager/MSFT_ServerManagerServerComponentDescriptor</T>
+          <T>Microsoft.Management.Infrastructure.CimInstance#ServerComponent_RPC_over_HTTP_Proxy</T>
+          <T>Microsoft.Management.Infrastructure.CimInstance#MSFT_ServerManagerServerComponentDescriptor</T>
+          <T>Microsoft.Management.Infrastructure.CimInstance</T>
+          <T>System.Object</T>
+        </TN>
+        <ToString>ServerComponent_RPC_over_HTTP_Proxy</ToString>
+        <Props>
+          <S N="PSComputerName">WIN-HIOQRG66VRJ</S>
+        </Props>
+        <MS>
+          <I32 N="NumericId">47</I32>
+          <Obj N="__ClassMetadata" RefId="38">
+            <TNRef RefId="2" />
+            <LST>
+              <Obj RefId="39">
+                <MS>
+                  <S N="ClassName">MSFT_ServerManagerServerComponentDescriptor</S>
+                  <S N="Namespace">ROOT/Microsoft/Windows/ServerManager</S>
+                  <S N="ServerName">WIN-HIOQRG66VRJ</S>
+                  <I32 N="Hash">-419347112</I32>
+                </MS>
+              </Obj>
+              <Obj RefId="40">
+                <MS>
+                  <S N="ClassName">ServerComponent_RPC_over_HTTP_Proxy</S>
+                  <S N="Namespace">ROOT/Microsoft/Windows/ServerManager</S>
+                  <S N="ServerName">WIN-HIOQRG66VRJ</S>
+                  <I32 N="Hash">-412054248</I32>
+                  <S N="MiXml">&lt;CLASS NAME="ServerComponent_RPC_over_HTTP_Proxy" SUPERCLASS="MSFT_ServerManagerServerComponentDescriptor"&gt;&lt;QUALIFIER NAME="dynamic" TYPE="boolean"&gt;&lt;VALUE&gt;true&lt;/VALUE&gt;&lt;/QUALIFIER&gt;&lt;QUALIFIER NAME="provider" TYPE="string"&gt;&lt;VALUE&gt;deploymentprovider&lt;/VALUE&gt;&lt;/QUALIFIER&gt;&lt;QUALIFIER NAME="ClassVersion" TYPE="string"&gt;&lt;VALUE&gt;10.0.0&lt;/VALUE&gt;&lt;/QUALIFIER&gt;&lt;QUALIFIER NAME="DisplayName" TYPE="string" TRANSLATABLE="true"&gt;&lt;VALUE&gt;RPC-over-HTTP-Proxy&lt;/VALUE&gt;&lt;/QUALIFIER&gt;&lt;/CLASS&gt;</S>
+                </MS>
+              </Obj>
+            </LST>
+          </Obj>
+        </MS>
+      </Obj>
+      <Obj RefId="41">
+        <TN RefId="12">
+          <T>Microsoft.Management.Infrastructure.CimInstance#ROOT/Microsoft/Windows/ServerManager/ServerComponent_RSAT_NPAS</T>
+          <T>Microsoft.Management.Infrastructure.CimInstance#ROOT/Microsoft/Windows/ServerManager/MSFT_ServerManagerServerComponentDescriptor</T>
+          <T>Microsoft.Management.Infrastructure.CimInstance#ServerComponent_RSAT_NPAS</T>
+          <T>Microsoft.Management.Infrastructure.CimInstance#MSFT_ServerManagerServerComponentDescriptor</T>
+          <T>Microsoft.Management.Infrastructure.CimInstance</T>
+          <T>System.Object</T>
+        </TN>
+        <ToString>ServerComponent_RSAT_NPAS</ToString>
+        <Props>
+          <S N="PSComputerName">WIN-HIOQRG66VRJ</S>
+        </Props>
+        <MS>
+          <I32 N="NumericId">461</I32>
+          <Obj N="__ClassMetadata" RefId="42">
+            <TNRef RefId="2" />
+            <LST>
+              <Obj RefId="43">
+                <MS>
+                  <S N="ClassName">MSFT_ServerManagerServerComponentDescriptor</S>
+                  <S N="Namespace">ROOT/Microsoft/Windows/ServerManager</S>
+                  <S N="ServerName">WIN-HIOQRG66VRJ</S>
+                  <I32 N="Hash">-419347112</I32>
+                </MS>
+              </Obj>
+              <Obj RefId="44">
+                <MS>
+                  <S N="ClassName">ServerComponent_RSAT_NPAS</S>
+                  <S N="Namespace">ROOT/Microsoft/Windows/ServerManager</S>
+                  <S N="ServerName">WIN-HIOQRG66VRJ</S>
+                  <I32 N="Hash">-411980408</I32>
+                  <S N="MiXml">&lt;CLASS NAME="ServerComponent_RSAT_NPAS" SUPERCLASS="MSFT_ServerManagerServerComponentDescriptor"&gt;&lt;QUALIFIER NAME="dynamic" TYPE="boolean"&gt;&lt;VALUE&gt;true&lt;/VALUE&gt;&lt;/QUALIFIER&gt;&lt;QUALIFIER NAME="provider" TYPE="string"&gt;&lt;VALUE&gt;deploymentprovider&lt;/VALUE&gt;&lt;/QUALIFIER&gt;&lt;QUALIFIER NAME="ClassVersion" TYPE="string"&gt;&lt;VALUE&gt;10.0.0&lt;/VALUE&gt;&lt;/QUALIFIER&gt;&lt;QUALIFIER NAME="DisplayName" TYPE="string" TRANSLATABLE="true"&gt;&lt;VALUE&gt;RSAT-NPAS&lt;/VALUE&gt;&lt;/QUALIFIER&gt;&lt;/CLASS&gt;</S>
+                </MS>
+              </Obj>
+            </LST>
+          </Obj>
+        </MS>
+      </Obj>
+      <Obj RefId="45">
+        <TN RefId="13">
+          <T>Microsoft.Management.Infrastructure.CimInstance#ROOT/Microsoft/Windows/ServerManager/ServerComponent_RSAT_RDS_Gateway</T>
+          <T>Microsoft.Management.Infrastructure.CimInstance#ROOT/Microsoft/Windows/ServerManager/MSFT_ServerManagerServerComponentDescriptor</T>
+          <T>Microsoft.Management.Infrastructure.CimInstance#ServerComponent_RSAT_RDS_Gateway</T>
+          <T>Microsoft.Management.Infrastructure.CimInstance#MSFT_ServerManagerServerComponentDescriptor</T>
+          <T>Microsoft.Management.Infrastructure.CimInstance</T>
+          <T>System.Object</T>
+        </TN>
+        <ToString>ServerComponent_RSAT_RDS_Gateway</ToString>
+        <Props>
+          <S N="PSComputerName">WIN-HIOQRG66VRJ</S>
+        </Props>
+        <MS>
+          <I32 N="NumericId">285</I32>
+          <Obj N="__ClassMetadata" RefId="46">
+            <TNRef RefId="2" />
+            <LST>
+              <Obj RefId="47">
+                <MS>
+                  <S N="ClassName">MSFT_ServerManagerServerComponentDescriptor</S>
+                  <S N="Namespace">ROOT/Microsoft/Windows/ServerManager</S>
+                  <S N="ServerName">WIN-HIOQRG66VRJ</S>
+                  <I32 N="Hash">-419347112</I32>
+                </MS>
+              </Obj>
+              <Obj RefId="48">
+                <MS>
+                  <S N="ClassName">ServerComponent_RSAT_RDS_Gateway</S>
+                  <S N="Namespace">ROOT/Microsoft/Windows/ServerManager</S>
+                  <S N="ServerName">WIN-HIOQRG66VRJ</S>
+                  <I32 N="Hash">-411930488</I32>
+                  <S N="MiXml">&lt;CLASS NAME="ServerComponent_RSAT_RDS_Gateway" SUPERCLASS="MSFT_ServerManagerServerComponentDescriptor"&gt;&lt;QUALIFIER NAME="dynamic" TYPE="boolean"&gt;&lt;VALUE&gt;true&lt;/VALUE&gt;&lt;/QUALIFIER&gt;&lt;QUALIFIER NAME="provider" TYPE="string"&gt;&lt;VALUE&gt;deploymentprovider&lt;/VALUE&gt;&lt;/QUALIFIER&gt;&lt;QUALIFIER NAME="ClassVersion" TYPE="string"&gt;&lt;VALUE&gt;0.0.0&lt;/VALUE&gt;&lt;/QUALIFIER&gt;&lt;QUALIFIER NAME="DisplayName" TYPE="string" TRANSLATABLE="true"&gt;&lt;VALUE&gt;RSAT-RDS-Gateway&lt;/VALUE&gt;&lt;/QUALIFIER&gt;&lt;/CLASS&gt;</S>
+                </MS>
+              </Obj>
+            </LST>
+          </Obj>
+        </MS>
+      </Obj>
+      <Obj RefId="49">
+        <TN RefId="14">
+          <T>Microsoft.Management.Infrastructure.CimInstance#ROOT/Microsoft/Windows/ServerManager/ServerComponent_RSAT_RDS_Licensing_Diagnosis_UI</T>
+          <T>Microsoft.Management.Infrastructure.CimInstance#ROOT/Microsoft/Windows/ServerManager/MSFT_ServerManagerServerComponentDescriptor</T>
+          <T>Microsoft.Management.Infrastructure.CimInstance#ServerComponent_RSAT_RDS_Licensing_Diagnosis_UI</T>
+          <T>Microsoft.Management.Infrastructure.CimInstance#MSFT_ServerManagerServerComponentDescriptor</T>
+          <T>Microsoft.Management.Infrastructure.CimInstance</T>
+          <T>System.Object</T>
+        </TN>
+        <ToString>ServerComponent_RSAT_RDS_Licensing_Diagnosis_UI</ToString>
+        <Props>
+          <S N="PSComputerName">WIN-HIOQRG66VRJ</S>
+        </Props>
+        <MS>
+          <I32 N="NumericId">476</I32>
+          <Obj N="__ClassMetadata" RefId="50">
+            <TNRef RefId="2" />
+            <LST>
+              <Obj RefId="51">
+                <MS>
+                  <S N="ClassName">MSFT_ServerManagerServerComponentDescriptor</S>
+                  <S N="Namespace">ROOT/Microsoft/Windows/ServerManager</S>
+                  <S N="ServerName">WIN-HIOQRG66VRJ</S>
+                  <I32 N="Hash">-419347112</I32>
+                </MS>
+              </Obj>
+              <Obj RefId="52">
+                <MS>
+                  <S N="ClassName">ServerComponent_RSAT_RDS_Licensing_Diagnosis_UI</S>
+                  <S N="Namespace">ROOT/Microsoft/Windows/ServerManager</S>
+                  <S N="ServerName">WIN-HIOQRG66VRJ</S>
+                  <I32 N="Hash">-411940888</I32>
+                  <S N="MiXml">&lt;CLASS NAME="ServerComponent_RSAT_RDS_Licensing_Diagnosis_UI" SUPERCLASS="MSFT_ServerManagerServerComponentDescriptor"&gt;&lt;QUALIFIER NAME="dynamic" TYPE="boolean"&gt;&lt;VALUE&gt;true&lt;/VALUE&gt;&lt;/QUALIFIER&gt;&lt;QUALIFIER NAME="provider" TYPE="string"&gt;&lt;VALUE&gt;deploymentprovider&lt;/VALUE&gt;&lt;/QUALIFIER&gt;&lt;QUALIFIER NAME="ClassVersion" TYPE="string"&gt;&lt;VALUE&gt;0.0.0&lt;/VALUE&gt;&lt;/QUALIFIER&gt;&lt;QUALIFIER NAME="DisplayName" TYPE="string" TRANSLATABLE="true"&gt;&lt;VALUE&gt;RSAT-RDS-Licensing-Diagnosis-UI&lt;/VALUE&gt;&lt;/QUALIFIER&gt;&lt;/CLASS&gt;</S>
+                </MS>
+              </Obj>
+            </LST>
+          </Obj>
+        </MS>
+      </Obj>
+      <Obj RefId="53">
+        <TN RefId="15">
+          <T>Microsoft.Management.Infrastructure.CimInstance#ROOT/Microsoft/Windows/ServerManager/ServerComponent_RSAT_RDS_Tools</T>
+          <T>Microsoft.Management.Infrastructure.CimInstance#ROOT/Microsoft/Windows/ServerManager/MSFT_ServerManagerServerComponentDescriptor</T>
+          <T>Microsoft.Management.Infrastructure.CimInstance#ServerComponent_RSAT_RDS_Tools</T>
+          <T>Microsoft.Management.Infrastructure.CimInstance#MSFT_ServerManagerServerComponentDescriptor</T>
+          <T>Microsoft.Management.Infrastructure.CimInstance</T>
+          <T>System.Object</T>
+        </TN>
+        <ToString>ServerComponent_RSAT_RDS_Tools</ToString>
+        <Props>
+          <S N="PSComputerName">WIN-HIOQRG66VRJ</S>
+        </Props>
+        <MS>
+          <I32 N="NumericId">463</I32>
+          <Obj N="__ClassMetadata" RefId="54">
+            <TNRef RefId="2" />
+            <LST>
+              <Obj RefId="55">
+                <MS>
+                  <S N="ClassName">MSFT_ServerManagerServerComponentDescriptor</S>
+                  <S N="Namespace">ROOT/Microsoft/Windows/ServerManager</S>
+                  <S N="ServerName">WIN-HIOQRG66VRJ</S>
+                  <I32 N="Hash">-419347112</I32>
+                </MS>
+              </Obj>
+              <Obj RefId="56">
+                <MS>
+                  <S N="ClassName">ServerComponent_RSAT_RDS_Tools</S>
+                  <S N="Namespace">ROOT/Microsoft/Windows/ServerManager</S>
+                  <S N="ServerName">WIN-HIOQRG66VRJ</S>
+                  <I32 N="Hash">-411942968</I32>
+                  <S N="MiXml">&lt;CLASS NAME="ServerComponent_RSAT_RDS_Tools" SUPERCLASS="MSFT_ServerManagerServerComponentDescriptor"&gt;&lt;QUALIFIER NAME="dynamic" TYPE="boolean"&gt;&lt;VALUE&gt;true&lt;/VALUE&gt;&lt;/QUALIFIER&gt;&lt;QUALIFIER NAME="provider" TYPE="string"&gt;&lt;VALUE&gt;deploymentprovider&lt;/VALUE&gt;&lt;/QUALIFIER&gt;&lt;QUALIFIER NAME="ClassVersion" TYPE="string"&gt;&lt;VALUE&gt;0.0.0&lt;/VALUE&gt;&lt;/QUALIFIER&gt;&lt;QUALIFIER NAME="DisplayName" TYPE="string" TRANSLATABLE="true"&gt;&lt;VALUE&gt;RSAT-RDS-Tools&lt;/VALUE&gt;&lt;/QUALIFIER&gt;&lt;/CLASS&gt;</S>
+                </MS>
+              </Obj>
+            </LST>
+          </Obj>
+        </MS>
+      </Obj>
+      <Obj RefId="57">
+        <TN RefId="16">
+          <T>Microsoft.Management.Infrastructure.CimInstance#ROOT/Microsoft/Windows/ServerManager/ServerComponent_WDS</T>
+          <T>Microsoft.Management.Infrastructure.CimInstance#ROOT/Microsoft/Windows/ServerManager/MSFT_ServerManagerServerComponentDescriptor</T>
+          <T>Microsoft.Management.Infrastructure.CimInstance#ServerComponent_WDS</T>
+          <T>Microsoft.Management.Infrastructure.CimInstance#MSFT_ServerManagerServerComponentDescriptor</T>
+          <T>Microsoft.Management.Infrastructure.CimInstance</T>
+          <T>System.Object</T>
+        </TN>
+        <ToString>ServerComponent_WDS</ToString>
+        <Props>
+          <S N="PSComputerName">WIN-HIOQRG66VRJ</S>
+        </Props>
+        <MS>
+          <I32 N="NumericId">19</I32>
+          <Obj N="__ClassMetadata" RefId="58">
+            <TNRef RefId="2" />
+            <LST>
+              <Obj RefId="59">
+                <MS>
+                  <S N="ClassName">MSFT_ServerManagerServerComponentDescriptor</S>
+                  <S N="Namespace">ROOT/Microsoft/Windows/ServerManager</S>
+                  <S N="ServerName">WIN-HIOQRG66VRJ</S>
+                  <I32 N="Hash">-419347112</I32>
+                </MS>
+              </Obj>
+              <Obj RefId="60">
+                <MS>
+                  <S N="ClassName">ServerComponent_WDS</S>
+                  <S N="Namespace">ROOT/Microsoft/Windows/ServerManager</S>
+                  <S N="ServerName">WIN-HIOQRG66VRJ</S>
+                  <I32 N="Hash">-412085448</I32>
+                  <S N="MiXml">&lt;CLASS NAME="ServerComponent_WDS" SUPERCLASS="MSFT_ServerManagerServerComponentDescriptor"&gt;&lt;QUALIFIER NAME="dynamic" TYPE="boolean"&gt;&lt;VALUE&gt;true&lt;/VALUE&gt;&lt;/QUALIFIER&gt;&lt;QUALIFIER NAME="provider" TYPE="string"&gt;&lt;VALUE&gt;deploymentprovider&lt;/VALUE&gt;&lt;/QUALIFIER&gt;&lt;QUALIFIER NAME="ClassVersion" TYPE="string"&gt;&lt;VALUE&gt;1.0.0&lt;/VALUE&gt;&lt;/QUALIFIER&gt;&lt;QUALIFIER NAME="DisplayName" TYPE="string" TRANSLATABLE="true"&gt;&lt;VALUE&gt;WDS&lt;/VALUE&gt;&lt;/QUALIFIER&gt;&lt;/CLASS&gt;</S>
+                </MS>
+              </Obj>
+            </LST>
+          </Obj>
+        </MS>
+      </Obj>
+      <Obj RefId="61">
+        <TN RefId="17">
+          <T>Microsoft.Management.Infrastructure.CimInstance#ROOT/Microsoft/Windows/ServerManager/ServerComponent_WDS_AdminPack</T>
+          <T>Microsoft.Management.Infrastructure.CimInstance#ROOT/Microsoft/Windows/ServerManager/MSFT_ServerManagerServerComponentDescriptor</T>
+          <T>Microsoft.Management.Infrastructure.CimInstance#ServerComponent_WDS_AdminPack</T>
+          <T>Microsoft.Management.Infrastructure.CimInstance#MSFT_ServerManagerServerComponentDescriptor</T>
+          <T>Microsoft.Management.Infrastructure.CimInstance</T>
+          <T>System.Object</T>
+        </TN>
+        <ToString>ServerComponent_WDS_AdminPack</ToString>
+        <Props>
+          <S N="PSComputerName">WIN-HIOQRG66VRJ</S>
+        </Props>
+        <MS>
+          <I32 N="NumericId">264</I32>
+          <Obj N="__ClassMetadata" RefId="62">
+            <TNRef RefId="2" />
+            <LST>
+              <Obj RefId="63">
+                <MS>
+                  <S N="ClassName">MSFT_ServerManagerServerComponentDescriptor</S>
+                  <S N="Namespace">ROOT/Microsoft/Windows/ServerManager</S>
+                  <S N="ServerName">WIN-HIOQRG66VRJ</S>
+                  <I32 N="Hash">-419347112</I32>
+                </MS>
+              </Obj>
+              <Obj RefId="64">
+                <MS>
+                  <S N="ClassName">ServerComponent_WDS_AdminPack</S>
+                  <S N="Namespace">ROOT/Microsoft/Windows/ServerManager</S>
+                  <S N="ServerName">WIN-HIOQRG66VRJ</S>
+                  <I32 N="Hash">-412078168</I32>
+                  <S N="MiXml">&lt;CLASS NAME="ServerComponent_WDS_AdminPack" SUPERCLASS="MSFT_ServerManagerServerComponentDescriptor"&gt;&lt;QUALIFIER NAME="dynamic" TYPE="boolean"&gt;&lt;VALUE&gt;true&lt;/VALUE&gt;&lt;/QUALIFIER&gt;&lt;QUALIFIER NAME="provider" TYPE="string"&gt;&lt;VALUE&gt;deploymentprovider&lt;/VALUE&gt;&lt;/QUALIFIER&gt;&lt;QUALIFIER NAME="ClassVersion" TYPE="string"&gt;&lt;VALUE&gt;1.0.0&lt;/VALUE&gt;&lt;/QUALIFIER&gt;&lt;QUALIFIER NAME="DisplayName" TYPE="string" TRANSLATABLE="true"&gt;&lt;VALUE&gt;WDS-AdminPack&lt;/VALUE&gt;&lt;/QUALIFIER&gt;&lt;/CLASS&gt;</S>
+                </MS>
+              </Obj>
+            </LST>
+          </Obj>
+        </MS>
+      </Obj>
+      <Obj RefId="65">
+        <TN RefId="18">
+          <T>Microsoft.Management.Infrastructure.CimInstance#ROOT/Microsoft/Windows/ServerManager/ServerComponent_WDS_Deployment</T>
+          <T>Microsoft.Management.Infrastructure.CimInstance#ROOT/Microsoft/Windows/ServerManager/MSFT_ServerManagerServerComponentDescriptor</T>
+          <T>Microsoft.Management.Infrastructure.CimInstance#ServerComponent_WDS_Deployment</T>
+          <T>Microsoft.Management.Infrastructure.CimInstance#MSFT_ServerManagerServerComponentDescriptor</T>
+          <T>Microsoft.Management.Infrastructure.CimInstance</T>
+          <T>System.Object</T>
+        </TN>
+        <ToString>ServerComponent_WDS_Deployment</ToString>
+        <Props>
+          <S N="PSComputerName">WIN-HIOQRG66VRJ</S>
+        </Props>
+        <MS>
+          <I32 N="NumericId">251</I32>
+          <Obj N="__ClassMetadata" RefId="66">
+            <TNRef RefId="2" />
+            <LST>
+              <Obj RefId="67">
+                <MS>
+                  <S N="ClassName">MSFT_ServerManagerServerComponentDescriptor</S>
+                  <S N="Namespace">ROOT/Microsoft/Windows/ServerManager</S>
+                  <S N="ServerName">WIN-HIOQRG66VRJ</S>
+                  <I32 N="Hash">-419347112</I32>
+                </MS>
+              </Obj>
+              <Obj RefId="68">
+                <MS>
+                  <S N="ClassName">ServerComponent_WDS_Deployment</S>
+                  <S N="Namespace">ROOT/Microsoft/Windows/ServerManager</S>
+                  <S N="ServerName">WIN-HIOQRG66VRJ</S>
+                  <I32 N="Hash">-412079208</I32>
+                  <S N="MiXml">&lt;CLASS NAME="ServerComponent_WDS_Deployment" SUPERCLASS="MSFT_ServerManagerServerComponentDescriptor"&gt;&lt;QUALIFIER NAME="dynamic" TYPE="boolean"&gt;&lt;VALUE&gt;true&lt;/VALUE&gt;&lt;/QUALIFIER&gt;&lt;QUALIFIER NAME="provider" TYPE="string"&gt;&lt;VALUE&gt;deploymentprovider&lt;/VALUE&gt;&lt;/QUALIFIER&gt;&lt;QUALIFIER NAME="ClassVersion" TYPE="string"&gt;&lt;VALUE&gt;1.0.0&lt;/VALUE&gt;&lt;/QUALIFIER&gt;&lt;QUALIFIER NAME="DisplayName" TYPE="string" TRANSLATABLE="true"&gt;&lt;VALUE&gt;WDS-Deployment&lt;/VALUE&gt;&lt;/QUALIFIER&gt;&lt;/CLASS&gt;</S>
+                </MS>
+              </Obj>
+            </LST>
+          </Obj>
+        </MS>
+      </Obj>
+      <Obj RefId="69">
+        <TN RefId="19">
+          <T>Microsoft.Management.Infrastructure.CimInstance#ROOT/Microsoft/Windows/ServerManager/ServerComponent_WDS_Transport</T>
+          <T>Microsoft.Management.Infrastructure.CimInstance#ROOT/Microsoft/Windows/ServerManager/MSFT_ServerManagerServerComponentDescriptor</T>
+          <T>Microsoft.Management.Infrastructure.CimInstance#ServerComponent_WDS_Transport</T>
+          <T>Microsoft.Management.Infrastructure.CimInstance#MSFT_ServerManagerServerComponentDescriptor</T>
+          <T>Microsoft.Management.Infrastructure.CimInstance</T>
+          <T>System.Object</T>
+        </TN>
+        <ToString>ServerComponent_WDS_Transport</ToString>
+        <Props>
+          <S N="PSComputerName">WIN-HIOQRG66VRJ</S>
+        </Props>
+        <MS>
+          <I32 N="NumericId">252</I32>
+          <Obj N="__ClassMetadata" RefId="70">
+            <TNRef RefId="2" />
+            <LST>
+              <Obj RefId="71">
+                <MS>
+                  <S N="ClassName">MSFT_ServerManagerServerComponentDescriptor</S>
+                  <S N="Namespace">ROOT/Microsoft/Windows/ServerManager</S>
+                  <S N="ServerName">WIN-HIOQRG66VRJ</S>
+                  <I32 N="Hash">-419347112</I32>
+                </MS>
+              </Obj>
+              <Obj RefId="72">
+                <MS>
+                  <S N="ClassName">ServerComponent_WDS_Transport</S>
+                  <S N="Namespace">ROOT/Microsoft/Windows/ServerManager</S>
+                  <S N="ServerName">WIN-HIOQRG66VRJ</S>
+                  <I32 N="Hash">-412100008</I32>
+                  <S N="MiXml">&lt;CLASS NAME="ServerComponent_WDS_Transport" SUPERCLASS="MSFT_ServerManagerServerComponentDescriptor"&gt;&lt;QUALIFIER NAME="dynamic" TYPE="boolean"&gt;&lt;VALUE&gt;true&lt;/VALUE&gt;&lt;/QUALIFIER&gt;&lt;QUALIFIER NAME="provider" TYPE="string"&gt;&lt;VALUE&gt;deploymentprovider&lt;/VALUE&gt;&lt;/QUALIFIER&gt;&lt;QUALIFIER NAME="ClassVersion" TYPE="string"&gt;&lt;VALUE&gt;1.0.0&lt;/VALUE&gt;&lt;/QUALIFIER&gt;&lt;QUALIFIER NAME="DisplayName" TYPE="string" TRANSLATABLE="true"&gt;&lt;VALUE&gt;WDS-Transport&lt;/VALUE&gt;&lt;/QUALIFIER&gt;&lt;/CLASS&gt;</S>
+                </MS>
+              </Obj>
+            </LST>
+          </Obj>
+        </MS>
+      </Obj>
+      <Obj RefId="73">
+        <TN RefId="20">
+          <T>Microsoft.Management.Infrastructure.CimInstance#ROOT/Microsoft/Windows/ServerManager/ServerComponent_Web_App_Dev</T>
+          <T>Microsoft.Management.Infrastructure.CimInstance#ROOT/Microsoft/Windows/ServerManager/MSFT_ServerManagerServerComponentDescriptor</T>
+          <T>Microsoft.Management.Infrastructure.CimInstance#ServerComponent_Web_App_Dev</T>
+          <T>Microsoft.Management.Infrastructure.CimInstance#MSFT_ServerManagerServerComponentDescriptor</T>
+          <T>Microsoft.Management.Infrastructure.CimInstance</T>
+          <T>System.Object</T>
+        </TN>
+        <ToString>ServerComponent_Web_App_Dev</ToString>
+        <Props>
+          <S N="PSComputerName">WIN-HIOQRG66VRJ</S>
+        </Props>
+        <MS>
+          <I32 N="NumericId">147</I32>
+          <Obj N="__ClassMetadata" RefId="74">
+            <TNRef RefId="2" />
+            <LST>
+              <Obj RefId="75">
+                <MS>
+                  <S N="ClassName">MSFT_ServerManagerServerComponentDescriptor</S>
+                  <S N="Namespace">ROOT/Microsoft/Windows/ServerManager</S>
+                  <S N="ServerName">WIN-HIOQRG66VRJ</S>
+                  <I32 N="Hash">-419347112</I32>
+                </MS>
+              </Obj>
+              <Obj RefId="76">
+                <MS>
+                  <S N="ClassName">ServerComponent_Web_App_Dev</S>
+                  <S N="Namespace">ROOT/Microsoft/Windows/ServerManager</S>
+                  <S N="ServerName">WIN-HIOQRG66VRJ</S>
+                  <I32 N="Hash">-412063608</I32>
+                  <S N="MiXml">&lt;CLASS NAME="ServerComponent_Web_App_Dev" SUPERCLASS="MSFT_ServerManagerServerComponentDescriptor"&gt;&lt;QUALIFIER NAME="dynamic" TYPE="boolean"&gt;&lt;VALUE&gt;true&lt;/VALUE&gt;&lt;/QUALIFIER&gt;&lt;QUALIFIER NAME="provider" TYPE="string"&gt;&lt;VALUE&gt;deploymentprovider&lt;/VALUE&gt;&lt;/QUALIFIER&gt;&lt;QUALIFIER NAME="ClassVersion" TYPE="string"&gt;&lt;VALUE&gt;0.0.0&lt;/VALUE&gt;&lt;/QUALIFIER&gt;&lt;QUALIFIER NAME="DisplayName" TYPE="string" TRANSLATABLE="true"&gt;&lt;VALUE&gt;Web-App-Dev&lt;/VALUE&gt;&lt;/QUALIFIER&gt;&lt;/CLASS&gt;</S>
+                </MS>
+              </Obj>
+            </LST>
+          </Obj>
+        </MS>
+      </Obj>
+      <Obj RefId="77">
+        <TN RefId="21">
+          <T>Microsoft.Management.Infrastructure.CimInstance#ROOT/Microsoft/Windows/ServerManager/ServerComponent_Web_Asp_Net45</T>
+          <T>Microsoft.Management.Infrastructure.CimInstance#ROOT/Microsoft/Windows/ServerManager/MSFT_ServerManagerServerComponentDescriptor</T>
+          <T>Microsoft.Management.Infrastructure.CimInstance#ServerComponent_Web_Asp_Net45</T>
+          <T>Microsoft.Management.Infrastructure.CimInstance#MSFT_ServerManagerServerComponentDescriptor</T>
+          <T>Microsoft.Management.Infrastructure.CimInstance</T>
+          <T>System.Object</T>
+        </TN>
+        <ToString>ServerComponent_Web_Asp_Net45</ToString>
+        <Props>
+          <S N="PSComputerName">WIN-HIOQRG66VRJ</S>
+        </Props>
+        <MS>
+          <I32 N="NumericId">413</I32>
+          <Obj N="__ClassMetadata" RefId="78">
+            <TNRef RefId="2" />
+            <LST>
+              <Obj RefId="79">
+                <MS>
+                  <S N="ClassName">MSFT_ServerManagerServerComponentDescriptor</S>
+                  <S N="Namespace">ROOT/Microsoft/Windows/ServerManager</S>
+                  <S N="ServerName">WIN-HIOQRG66VRJ</S>
+                  <I32 N="Hash">-419347112</I32>
+                </MS>
+              </Obj>
+              <Obj RefId="80">
+                <MS>
+                  <S N="ClassName">ServerComponent_Web_Asp_Net45</S>
+                  <S N="Namespace">ROOT/Microsoft/Windows/ServerManager</S>
+                  <S N="ServerName">WIN-HIOQRG66VRJ</S>
+                  <I32 N="Hash">-412070888</I32>
+                  <S N="MiXml">&lt;CLASS NAME="ServerComponent_Web_Asp_Net45" SUPERCLASS="MSFT_ServerManagerServerComponentDescriptor"&gt;&lt;QUALIFIER NAME="dynamic" TYPE="boolean"&gt;&lt;VALUE&gt;true&lt;/VALUE&gt;&lt;/QUALIFIER&gt;&lt;QUALIFIER NAME="provider" TYPE="string"&gt;&lt;VALUE&gt;deploymentprovider&lt;/VALUE&gt;&lt;/QUALIFIER&gt;&lt;QUALIFIER NAME="ClassVersion" TYPE="string"&gt;&lt;VALUE&gt;0.0.0&lt;/VALUE&gt;&lt;/QUALIFIER&gt;&lt;QUALIFIER NAME="DisplayName" TYPE="string" TRANSLATABLE="true"&gt;&lt;VALUE&gt;Web-Asp-Net45&lt;/VALUE&gt;&lt;/QUALIFIER&gt;&lt;/CLASS&gt;</S>
+                </MS>
+              </Obj>
+            </LST>
+          </Obj>
+        </MS>
+      </Obj>
+      <Obj RefId="81">
+        <TN RefId="22">
+          <T>Microsoft.Management.Infrastructure.CimInstance#ROOT/Microsoft/Windows/ServerManager/ServerComponent_Web_Basic_Auth</T>
+          <T>Microsoft.Management.Infrastructure.CimInstance#ROOT/Microsoft/Windows/ServerManager/MSFT_ServerManagerServerComponentDescriptor</T>
+          <T>Microsoft.Management.Infrastructure.CimInstance#ServerComponent_Web_Basic_Auth</T>
+          <T>Microsoft.Management.Infrastructure.CimInstance#MSFT_ServerManagerServerComponentDescriptor</T>
+          <T>Microsoft.Management.Infrastructure.CimInstance</T>
+          <T>System.Object</T>
+        </TN>
+        <ToString>ServerComponent_Web_Basic_Auth</ToString>
+        <Props>
+          <S N="PSComputerName">WIN-HIOQRG66VRJ</S>
+        </Props>
+        <MS>
+          <I32 N="NumericId">163</I32>
+          <Obj N="__ClassMetadata" RefId="82">
+            <TNRef RefId="2" />
+            <LST>
+              <Obj RefId="83">
+                <MS>
+                  <S N="ClassName">MSFT_ServerManagerServerComponentDescriptor</S>
+                  <S N="Namespace">ROOT/Microsoft/Windows/ServerManager</S>
+                  <S N="ServerName">WIN-HIOQRG66VRJ</S>
+                  <I32 N="Hash">-419347112</I32>
+                </MS>
+              </Obj>
+              <Obj RefId="84">
+                <MS>
+                  <S N="ClassName">ServerComponent_Web_Basic_Auth</S>
+                  <S N="Namespace">ROOT/Microsoft/Windows/ServerManager</S>
+                  <S N="ServerName">WIN-HIOQRG66VRJ</S>
+                  <I32 N="Hash">-412057368</I32>
+                  <S N="MiXml">&lt;CLASS NAME="ServerComponent_Web_Basic_Auth" SUPERCLASS="MSFT_ServerManagerServerComponentDescriptor"&gt;&lt;QUALIFIER NAME="dynamic" TYPE="boolean"&gt;&lt;VALUE&gt;true&lt;/VALUE&gt;&lt;/QUALIFIER&gt;&lt;QUALIFIER NAME="provider" TYPE="string"&gt;&lt;VALUE&gt;deploymentprovider&lt;/VALUE&gt;&lt;/QUALIFIER&gt;&lt;QUALIFIER NAME="ClassVersion" TYPE="string"&gt;&lt;VALUE&gt;0.0.0&lt;/VALUE&gt;&lt;/QUALIFIER&gt;&lt;QUALIFIER NAME="DisplayName" TYPE="string" TRANSLATABLE="true"&gt;&lt;VALUE&gt;Web-Basic-Auth&lt;/VALUE&gt;&lt;/QUALIFIER&gt;&lt;/CLASS&gt;</S>
+                </MS>
+              </Obj>
+            </LST>
+          </Obj>
+        </MS>
+      </Obj>
+      <Obj RefId="85">
+        <TN RefId="23">
+          <T>Microsoft.Management.Infrastructure.CimInstance#ROOT/Microsoft/Windows/ServerManager/ServerComponent_Web_Client_Auth</T>
+          <T>Microsoft.Management.Infrastructure.CimInstance#ROOT/Microsoft/Windows/ServerManager/MSFT_ServerManagerServerComponentDescriptor</T>
+          <T>Microsoft.Management.Infrastructure.CimInstance#ServerComponent_Web_Client_Auth</T>
+          <T>Microsoft.Management.Infrastructure.CimInstance#MSFT_ServerManagerServerComponentDescriptor</T>
+          <T>Microsoft.Management.Infrastructure.CimInstance</T>
+          <T>System.Object</T>
+        </TN>
+        <ToString>ServerComponent_Web_Client_Auth</ToString>
+        <Props>
+          <S N="PSComputerName">WIN-HIOQRG66VRJ</S>
+        </Props>
+        <MS>
+          <I32 N="NumericId">166</I32>
+          <Obj N="__ClassMetadata" RefId="86">
+            <TNRef RefId="2" />
+            <LST>
+              <Obj RefId="87">
+                <MS>
+                  <S N="ClassName">MSFT_ServerManagerServerComponentDescriptor</S>
+                  <S N="Namespace">ROOT/Microsoft/Windows/ServerManager</S>
+                  <S N="ServerName">WIN-HIOQRG66VRJ</S>
+                  <I32 N="Hash">-419347112</I32>
+                </MS>
+              </Obj>
+              <Obj RefId="88">
+                <MS>
+                  <S N="ClassName">ServerComponent_Web_Client_Auth</S>
+                  <S N="Namespace">ROOT/Microsoft/Windows/ServerManager</S>
+                  <S N="ServerName">WIN-HIOQRG66VRJ</S>
+                  <I32 N="Hash">-420062504</I32>
+                  <S N="MiXml">&lt;CLASS NAME="ServerComponent_Web_Client_Auth" SUPERCLASS="MSFT_ServerManagerServerComponentDescriptor"&gt;&lt;QUALIFIER NAME="dynamic" TYPE="boolean"&gt;&lt;VALUE&gt;true&lt;/VALUE&gt;&lt;/QUALIFIER&gt;&lt;QUALIFIER NAME="provider" TYPE="string"&gt;&lt;VALUE&gt;deploymentprovider&lt;/VALUE&gt;&lt;/QUALIFIER&gt;&lt;QUALIFIER NAME="ClassVersion" TYPE="string"&gt;&lt;VALUE&gt;0.0.0&lt;/VALUE&gt;&lt;/QUALIFIER&gt;&lt;QUALIFIER NAME="DisplayName" TYPE="string" TRANSLATABLE="true"&gt;&lt;VALUE&gt;Web-Client-Auth&lt;/VALUE&gt;&lt;/QUALIFIER&gt;&lt;/CLASS&gt;</S>
+                </MS>
+              </Obj>
+            </LST>
+          </Obj>
+        </MS>
+      </Obj>
+      <Obj RefId="89">
+        <TN RefId="24">
+          <T>Microsoft.Management.Infrastructure.CimInstance#ROOT/Microsoft/Windows/ServerManager/ServerComponent_Web_Common_Http</T>
+          <T>Microsoft.Management.Infrastructure.CimInstance#ROOT/Microsoft/Windows/ServerManager/MSFT_ServerManagerServerComponentDescriptor</T>
+          <T>Microsoft.Management.Infrastructure.CimInstance#ServerComponent_Web_Common_Http</T>
+          <T>Microsoft.Management.Infrastructure.CimInstance#MSFT_ServerManagerServerComponentDescriptor</T>
+          <T>Microsoft.Management.Infrastructure.CimInstance</T>
+          <T>System.Object</T>
+        </TN>
+        <ToString>ServerComponent_Web_Common_Http</ToString>
+        <Props>
+          <S N="PSComputerName">WIN-HIOQRG66VRJ</S>
+        </Props>
+        <MS>
+          <I32 N="NumericId">141</I32>
+          <Obj N="__ClassMetadata" RefId="90">
+            <TNRef RefId="2" />
+            <LST>
+              <Obj RefId="91">
+                <MS>
+                  <S N="ClassName">MSFT_ServerManagerServerComponentDescriptor</S>
+                  <S N="Namespace">ROOT/Microsoft/Windows/ServerManager</S>
+                  <S N="ServerName">WIN-HIOQRG66VRJ</S>
+                  <I32 N="Hash">-419347112</I32>
+                </MS>
+              </Obj>
+              <Obj RefId="92">
+                <MS>
+                  <S N="ClassName">ServerComponent_Web_Common_Http</S>
+                  <S N="Namespace">ROOT/Microsoft/Windows/ServerManager</S>
+                  <S N="ServerName">WIN-HIOQRG66VRJ</S>
+                  <I32 N="Hash">-420088504</I32>
+                  <S N="MiXml">&lt;CLASS NAME="ServerComponent_Web_Common_Http" SUPERCLASS="MSFT_ServerManagerServerComponentDescriptor"&gt;&lt;QUALIFIER NAME="dynamic" TYPE="boolean"&gt;&lt;VALUE&gt;true&lt;/VALUE&gt;&lt;/QUALIFIER&gt;&lt;QUALIFIER NAME="provider" TYPE="string"&gt;&lt;VALUE&gt;deploymentprovider&lt;/VALUE&gt;&lt;/QUALIFIER&gt;&lt;QUALIFIER NAME="ClassVersion" TYPE="string"&gt;&lt;VALUE&gt;0.0.0&lt;/VALUE&gt;&lt;/QUALIFIER&gt;&lt;QUALIFIER NAME="DisplayName" TYPE="string" TRANSLATABLE="true"&gt;&lt;VALUE&gt;Web-Common-Http&lt;/VALUE&gt;&lt;/QUALIFIER&gt;&lt;/CLASS&gt;</S>
+                </MS>
+              </Obj>
+            </LST>
+          </Obj>
+        </MS>
+      </Obj>
+      <Obj RefId="93">
+        <TN RefId="25">
+          <T>Microsoft.Management.Infrastructure.CimInstance#ROOT/Microsoft/Windows/ServerManager/ServerComponent_Web_Default_Doc</T>
+          <T>Microsoft.Management.Infrastructure.CimInstance#ROOT/Microsoft/Windows/ServerManager/MSFT_ServerManagerServerComponentDescriptor</T>
+          <T>Microsoft.Management.Infrastructure.CimInstance#ServerComponent_Web_Default_Doc</T>
+          <T>Microsoft.Management.Infrastructure.CimInstance#MSFT_ServerManagerServerComponentDescriptor</T>
+          <T>Microsoft.Management.Infrastructure.CimInstance</T>
+          <T>System.Object</T>
+        </TN>
+        <ToString>ServerComponent_Web_Default_Doc</ToString>
+        <Props>
+          <S N="PSComputerName">WIN-HIOQRG66VRJ</S>
+        </Props>
+        <MS>
+          <I32 N="NumericId">143</I32>
+          <Obj N="__ClassMetadata" RefId="94">
+            <TNRef RefId="2" />
+            <LST>
+              <Obj RefId="95">
+                <MS>
+                  <S N="ClassName">MSFT_ServerManagerServerComponentDescriptor</S>
+                  <S N="Namespace">ROOT/Microsoft/Windows/ServerManager</S>
+                  <S N="ServerName">WIN-HIOQRG66VRJ</S>
+                  <I32 N="Hash">-419347112</I32>
+                </MS>
+              </Obj>
+              <Obj RefId="96">
+                <MS>
+                  <S N="ClassName">ServerComponent_Web_Default_Doc</S>
+                  <S N="Namespace">ROOT/Microsoft/Windows/ServerManager</S>
+                  <S N="ServerName">WIN-HIOQRG66VRJ</S>
+                  <I32 N="Hash">-420051064</I32>
+                  <S N="MiXml">&lt;CLASS NAME="ServerComponent_Web_Default_Doc" SUPERCLASS="MSFT_ServerManagerServerComponentDescriptor"&gt;&lt;QUALIFIER NAME="dynamic" TYPE="boolean"&gt;&lt;VALUE&gt;true&lt;/VALUE&gt;&lt;/QUALIFIER&gt;&lt;QUALIFIER NAME="provider" TYPE="string"&gt;&lt;VALUE&gt;deploymentprovider&lt;/VALUE&gt;&lt;/QUALIFIER&gt;&lt;QUALIFIER NAME="ClassVersion" TYPE="string"&gt;&lt;VALUE&gt;0.0.0&lt;/VALUE&gt;&lt;/QUALIFIER&gt;&lt;QUALIFIER NAME="DisplayName" TYPE="string" TRANSLATABLE="true"&gt;&lt;VALUE&gt;Web-Default-Doc&lt;/VALUE&gt;&lt;/QUALIFIER&gt;&lt;/CLASS&gt;</S>
+                </MS>
+              </Obj>
+            </LST>
+          </Obj>
+        </MS>
+      </Obj>
+      <Obj RefId="97">
+        <TN RefId="26">
+          <T>Microsoft.Management.Infrastructure.CimInstance#ROOT/Microsoft/Windows/ServerManager/ServerComponent_Web_Dir_Browsing</T>
+          <T>Microsoft.Management.Infrastructure.CimInstance#ROOT/Microsoft/Windows/ServerManager/MSFT_ServerManagerServerComponentDescriptor</T>
+          <T>Microsoft.Management.Infrastructure.CimInstance#ServerComponent_Web_Dir_Browsing</T>
+          <T>Microsoft.Management.Infrastructure.CimInstance#MSFT_ServerManagerServerComponentDescriptor</T>
+          <T>Microsoft.Management.Infrastructure.CimInstance</T>
+          <T>System.Object</T>
+        </TN>
+        <ToString>ServerComponent_Web_Dir_Browsing</ToString>
+        <Props>
+          <S N="PSComputerName">WIN-HIOQRG66VRJ</S>
+        </Props>
+        <MS>
+          <I32 N="NumericId">144</I32>
+          <Obj N="__ClassMetadata" RefId="98">
+            <TNRef RefId="2" />
+            <LST>
+              <Obj RefId="99">
+                <MS>
+                  <S N="ClassName">MSFT_ServerManagerServerComponentDescriptor</S>
+                  <S N="Namespace">ROOT/Microsoft/Windows/ServerManager</S>
+                  <S N="ServerName">WIN-HIOQRG66VRJ</S>
+                  <I32 N="Hash">-419347112</I32>
+                </MS>
+              </Obj>
+              <Obj RefId="100">
+                <MS>
+                  <S N="ClassName">ServerComponent_Web_Dir_Browsing</S>
+                  <S N="Namespace">ROOT/Microsoft/Windows/ServerManager</S>
+                  <S N="ServerName">WIN-HIOQRG66VRJ</S>
+                  <I32 N="Hash">-420048984</I32>
+                  <S N="MiXml">&lt;CLASS NAME="ServerComponent_Web_Dir_Browsing" SUPERCLASS="MSFT_ServerManagerServerComponentDescriptor"&gt;&lt;QUALIFIER NAME="dynamic" TYPE="boolean"&gt;&lt;VALUE&gt;true&lt;/VALUE&gt;&lt;/QUALIFIER&gt;&lt;QUALIFIER NAME="provider" TYPE="string"&gt;&lt;VALUE&gt;deploymentprovider&lt;/VALUE&gt;&lt;/QUALIFIER&gt;&lt;QUALIFIER NAME="ClassVersion" TYPE="string"&gt;&lt;VALUE&gt;0.0.0&lt;/VALUE&gt;&lt;/QUALIFIER&gt;&lt;QUALIFIER NAME="DisplayName" TYPE="string" TRANSLATABLE="true"&gt;&lt;VALUE&gt;Web-Dir-Browsing&lt;/VALUE&gt;&lt;/QUALIFIER&gt;&lt;/CLASS&gt;</S>
+                </MS>
+              </Obj>
+            </LST>
+          </Obj>
+        </MS>
+      </Obj>
+      <Obj RefId="101">
+        <TN RefId="27">
+          <T>Microsoft.Management.Infrastructure.CimInstance#ROOT/Microsoft/Windows/ServerManager/ServerComponent_Web_Filtering</T>
+          <T>Microsoft.Management.Infrastructure.CimInstance#ROOT/Microsoft/Windows/ServerManager/MSFT_ServerManagerServerComponentDescriptor</T>
+          <T>Microsoft.Management.Infrastructure.CimInstance#ServerComponent_Web_Filtering</T>
+          <T>Microsoft.Management.Infrastructure.CimInstance#MSFT_ServerManagerServerComponentDescriptor</T>
+          <T>Microsoft.Management.Infrastructure.CimInstance</T>
+          <T>System.Object</T>
+        </TN>
+        <ToString>ServerComponent_Web_Filtering</ToString>
+        <Props>
+          <S N="PSComputerName">WIN-HIOQRG66VRJ</S>
+        </Props>
+        <MS>
+          <I32 N="NumericId">169</I32>
+          <Obj N="__ClassMetadata" RefId="102">
+            <TNRef RefId="2" />
+            <LST>
+              <Obj RefId="103">
+                <MS>
+                  <S N="ClassName">MSFT_ServerManagerServerComponentDescriptor</S>
+                  <S N="Namespace">ROOT/Microsoft/Windows/ServerManager</S>
+                  <S N="ServerName">WIN-HIOQRG66VRJ</S>
+                  <I32 N="Hash">-419347112</I32>
+                </MS>
+              </Obj>
+              <Obj RefId="104">
+                <MS>
+                  <S N="ClassName">ServerComponent_Web_Filtering</S>
+                  <S N="Namespace">ROOT/Microsoft/Windows/ServerManager</S>
+                  <S N="ServerName">WIN-HIOQRG66VRJ</S>
+                  <I32 N="Hash">-420043784</I32>
+                  <S N="MiXml">&lt;CLASS NAME="ServerComponent_Web_Filtering" SUPERCLASS="MSFT_ServerManagerServerComponentDescriptor"&gt;&lt;QUALIFIER NAME="dynamic" TYPE="boolean"&gt;&lt;VALUE&gt;true&lt;/VALUE&gt;&lt;/QUALIFIER&gt;&lt;QUALIFIER NAME="provider" TYPE="string"&gt;&lt;VALUE&gt;deploymentprovider&lt;/VALUE&gt;&lt;/QUALIFIER&gt;&lt;QUALIFIER NAME="ClassVersion" TYPE="string"&gt;&lt;VALUE&gt;0.0.0&lt;/VALUE&gt;&lt;/QUALIFIER&gt;&lt;QUALIFIER NAME="DisplayName" TYPE="string" TRANSLATABLE="true"&gt;&lt;VALUE&gt;Web-Filtering&lt;/VALUE&gt;&lt;/QUALIFIER&gt;&lt;/CLASS&gt;</S>
+                </MS>
+              </Obj>
+            </LST>
+          </Obj>
+        </MS>
+      </Obj>
+      <Obj RefId="105">
+        <TN RefId="28">
+          <T>Microsoft.Management.Infrastructure.CimInstance#ROOT/Microsoft/Windows/ServerManager/ServerComponent_Web_Health</T>
+          <T>Microsoft.Management.Infrastructure.CimInstance#ROOT/Microsoft/Windows/ServerManager/MSFT_ServerManagerServerComponentDescriptor</T>
+          <T>Microsoft.Management.Infrastructure.CimInstance#ServerComponent_Web_Health</T>
+          <T>Microsoft.Management.Infrastructure.CimInstance#MSFT_ServerManagerServerComponentDescriptor</T>
+          <T>Microsoft.Management.Infrastructure.CimInstance</T>
+          <T>System.Object</T>
+        </TN>
+        <ToString>ServerComponent_Web_Health</ToString>
+        <Props>
+          <S N="PSComputerName">WIN-HIOQRG66VRJ</S>
+        </Props>
+        <MS>
+          <I32 N="NumericId">155</I32>
+          <Obj N="__ClassMetadata" RefId="106">
+            <TNRef RefId="2" />
+            <LST>
+              <Obj RefId="107">
+                <MS>
+                  <S N="ClassName">MSFT_ServerManagerServerComponentDescriptor</S>
+                  <S N="Namespace">ROOT/Microsoft/Windows/ServerManager</S>
+                  <S N="ServerName">WIN-HIOQRG66VRJ</S>
+                  <I32 N="Hash">-419347112</I32>
+                </MS>
+              </Obj>
+              <Obj RefId="108">
+                <MS>
+                  <S N="ClassName">ServerComponent_Web_Health</S>
+                  <S N="Namespace">ROOT/Microsoft/Windows/ServerManager</S>
+                  <S N="ServerName">WIN-HIOQRG66VRJ</S>
+                  <I32 N="Hash">-420014664</I32>
+                  <S N="MiXml">&lt;CLASS NAME="ServerComponent_Web_Health" SUPERCLASS="MSFT_ServerManagerServerComponentDescriptor"&gt;&lt;QUALIFIER NAME="dynamic" TYPE="boolean"&gt;&lt;VALUE&gt;true&lt;/VALUE&gt;&lt;/QUALIFIER&gt;&lt;QUALIFIER NAME="provider" TYPE="string"&gt;&lt;VALUE&gt;deploymentprovider&lt;/VALUE&gt;&lt;/QUALIFIER&gt;&lt;QUALIFIER NAME="ClassVersion" TYPE="string"&gt;&lt;VALUE&gt;0.0.0&lt;/VALUE&gt;&lt;/QUALIFIER&gt;&lt;QUALIFIER NAME="DisplayName" TYPE="string" TRANSLATABLE="true"&gt;&lt;VALUE&gt;Web-Health&lt;/VALUE&gt;&lt;/QUALIFIER&gt;&lt;/CLASS&gt;</S>
+                </MS>
+              </Obj>
+            </LST>
+          </Obj>
+        </MS>
+      </Obj>
+      <Obj RefId="109">
+        <TN RefId="29">
+          <T>Microsoft.Management.Infrastructure.CimInstance#ROOT/Microsoft/Windows/ServerManager/ServerComponent_Web_Http_Errors</T>
+          <T>Microsoft.Management.Infrastructure.CimInstance#ROOT/Microsoft/Windows/ServerManager/MSFT_ServerManagerServerComponentDescriptor</T>
+          <T>Microsoft.Management.Infrastructure.CimInstance#ServerComponent_Web_Http_Errors</T>
+          <T>Microsoft.Management.Infrastructure.CimInstance#MSFT_ServerManagerServerComponentDescriptor</T>
+          <T>Microsoft.Management.Infrastructure.CimInstance</T>
+          <T>System.Object</T>
+        </TN>
+        <ToString>ServerComponent_Web_Http_Errors</ToString>
+        <Props>
+          <S N="PSComputerName">WIN-HIOQRG66VRJ</S>
+        </Props>
+        <MS>
+          <I32 N="NumericId">145</I32>
+          <Obj N="__ClassMetadata" RefId="110">
+            <TNRef RefId="2" />
+            <LST>
+              <Obj RefId="111">
+                <MS>
+                  <S N="ClassName">MSFT_ServerManagerServerComponentDescriptor</S>
+                  <S N="Namespace">ROOT/Microsoft/Windows/ServerManager</S>
+                  <S N="ServerName">WIN-HIOQRG66VRJ</S>
+                  <I32 N="Hash">-419347112</I32>
+                </MS>
+              </Obj>
+              <Obj RefId="112">
+                <MS>
+                  <S N="ClassName">ServerComponent_Web_Http_Errors</S>
+                  <S N="Namespace">ROOT/Microsoft/Windows/ServerManager</S>
+                  <S N="ServerName">WIN-HIOQRG66VRJ</S>
+                  <I32 N="Hash">-419994904</I32>
+                  <S N="MiXml">&lt;CLASS NAME="ServerComponent_Web_Http_Errors" SUPERCLASS="MSFT_ServerManagerServerComponentDescriptor"&gt;&lt;QUALIFIER NAME="dynamic" TYPE="boolean"&gt;&lt;VALUE&gt;true&lt;/VALUE&gt;&lt;/QUALIFIER&gt;&lt;QUALIFIER NAME="provider" TYPE="string"&gt;&lt;VALUE&gt;deploymentprovider&lt;/VALUE&gt;&lt;/QUALIFIER&gt;&lt;QUALIFIER NAME="ClassVersion" TYPE="string"&gt;&lt;VALUE&gt;0.0.0&lt;/VALUE&gt;&lt;/QUALIFIER&gt;&lt;QUALIFIER NAME="DisplayName" TYPE="string" TRANSLATABLE="true"&gt;&lt;VALUE&gt;Web-Http-Errors&lt;/VALUE&gt;&lt;/QUALIFIER&gt;&lt;/CLASS&gt;</S>
+                </MS>
+              </Obj>
+            </LST>
+          </Obj>
+        </MS>
+      </Obj>
+      <Obj RefId="113">
+        <TN RefId="30">
+          <T>Microsoft.Management.Infrastructure.CimInstance#ROOT/Microsoft/Windows/ServerManager/ServerComponent_Web_Http_Logging</T>
+          <T>Microsoft.Management.Infrastructure.CimInstance#ROOT/Microsoft/Windows/ServerManager/MSFT_ServerManagerServerComponentDescriptor</T>
+          <T>Microsoft.Management.Infrastructure.CimInstance#ServerComponent_Web_Http_Logging</T>
+          <T>Microsoft.Management.Infrastructure.CimInstance#MSFT_ServerManagerServerComponentDescriptor</T>
+          <T>Microsoft.Management.Infrastructure.CimInstance</T>
+          <T>System.Object</T>
+        </TN>
+        <ToString>ServerComponent_Web_Http_Logging</ToString>
+        <Props>
+          <S N="PSComputerName">WIN-HIOQRG66VRJ</S>
+        </Props>
+        <MS>
+          <I32 N="NumericId">156</I32>
+          <Obj N="__ClassMetadata" RefId="114">
+            <TNRef RefId="2" />
+            <LST>
+              <Obj RefId="115">
+                <MS>
+                  <S N="ClassName">MSFT_ServerManagerServerComponentDescriptor</S>
+                  <S N="Namespace">ROOT/Microsoft/Windows/ServerManager</S>
+                  <S N="ServerName">WIN-HIOQRG66VRJ</S>
+                  <I32 N="Hash">-419347112</I32>
+                </MS>
+              </Obj>
+              <Obj RefId="116">
+                <MS>
+                  <S N="ClassName">ServerComponent_Web_Http_Logging</S>
+                  <S N="Namespace">ROOT/Microsoft/Windows/ServerManager</S>
+                  <S N="ServerName">WIN-HIOQRG66VRJ</S>
+                  <I32 N="Hash">-420000104</I32>
+                  <S N="MiXml">&lt;CLASS NAME="ServerComponent_Web_Http_Logging" SUPERCLASS="MSFT_ServerManagerServerComponentDescriptor"&gt;&lt;QUALIFIER NAME="dynamic" TYPE="boolean"&gt;&lt;VALUE&gt;true&lt;/VALUE&gt;&lt;/QUALIFIER&gt;&lt;QUALIFIER NAME="provider" TYPE="string"&gt;&lt;VALUE&gt;deploymentprovider&lt;/VALUE&gt;&lt;/QUALIFIER&gt;&lt;QUALIFIER NAME="ClassVersion" TYPE="string"&gt;&lt;VALUE&gt;0.0.0&lt;/VALUE&gt;&lt;/QUALIFIER&gt;&lt;QUALIFIER NAME="DisplayName" TYPE="string" TRANSLATABLE="true"&gt;&lt;VALUE&gt;Web-Http-Logging&lt;/VALUE&gt;&lt;/QUALIFIER&gt;&lt;/CLASS&gt;</S>
+                </MS>
+              </Obj>
+            </LST>
+          </Obj>
+        </MS>
+      </Obj>
+      <Obj RefId="117">
+        <TN RefId="31">
+          <T>Microsoft.Management.Infrastructure.CimInstance#ROOT/Microsoft/Windows/ServerManager/ServerComponent_Web_Http_Redirect</T>
+          <T>Microsoft.Management.Infrastructure.CimInstance#ROOT/Microsoft/Windows/ServerManager/MSFT_ServerManagerServerComponentDescriptor</T>
+          <T>Microsoft.Management.Infrastructure.CimInstance#ServerComponent_Web_Http_Redirect</T>
+          <T>Microsoft.Management.Infrastructure.CimInstance#MSFT_ServerManagerServerComponentDescriptor</T>
+          <T>Microsoft.Management.Infrastructure.CimInstance</T>
+          <T>System.Object</T>
+        </TN>
+        <ToString>ServerComponent_Web_Http_Redirect</ToString>
+        <Props>
+          <S N="PSComputerName">WIN-HIOQRG66VRJ</S>
+        </Props>
+        <MS>
+          <I32 N="NumericId">146</I32>
+          <Obj N="__ClassMetadata" RefId="118">
+            <TNRef RefId="2" />
+            <LST>
+              <Obj RefId="119">
+                <MS>
+                  <S N="ClassName">MSFT_ServerManagerServerComponentDescriptor</S>
+                  <S N="Namespace">ROOT/Microsoft/Windows/ServerManager</S>
+                  <S N="ServerName">WIN-HIOQRG66VRJ</S>
+                  <I32 N="Hash">-419347112</I32>
+                </MS>
+              </Obj>
+              <Obj RefId="120">
+                <MS>
+                  <S N="ClassName">ServerComponent_Web_Http_Redirect</S>
+                  <S N="Namespace">ROOT/Microsoft/Windows/ServerManager</S>
+                  <S N="ServerName">WIN-HIOQRG66VRJ</S>
+                  <I32 N="Hash">-420025064</I32>
+                  <S N="MiXml">&lt;CLASS NAME="ServerComponent_Web_Http_Redirect" SUPERCLASS="MSFT_ServerManagerServerComponentDescriptor"&gt;&lt;QUALIFIER NAME="dynamic" TYPE="boolean"&gt;&lt;VALUE&gt;true&lt;/VALUE&gt;&lt;/QUALIFIER&gt;&lt;QUALIFIER NAME="provider" TYPE="string"&gt;&lt;VALUE&gt;deploymentprovider&lt;/VALUE&gt;&lt;/QUALIFIER&gt;&lt;QUALIFIER NAME="ClassVersion" TYPE="string"&gt;&lt;VALUE&gt;0.0.0&lt;/VALUE&gt;&lt;/QUALIFIER&gt;&lt;QUALIFIER NAME="DisplayName" TYPE="string" TRANSLATABLE="true"&gt;&lt;VALUE&gt;Web-Http-Redirect&lt;/VALUE&gt;&lt;/QUALIFIER&gt;&lt;/CLASS&gt;</S>
+                </MS>
+              </Obj>
+            </LST>
+          </Obj>
+        </MS>
+      </Obj>
+      <Obj RefId="121">
+        <TN RefId="32">
+          <T>Microsoft.Management.Infrastructure.CimInstance#ROOT/Microsoft/Windows/ServerManager/ServerComponent_Web_Http_Tracing</T>
+          <T>Microsoft.Management.Infrastructure.CimInstance#ROOT/Microsoft/Windows/ServerManager/MSFT_ServerManagerServerComponentDescriptor</T>
+          <T>Microsoft.Management.Infrastructure.CimInstance#ServerComponent_Web_Http_Tracing</T>
+          <T>Microsoft.Management.Infrastructure.CimInstance#MSFT_ServerManagerServerComponentDescriptor</T>
+          <T>Microsoft.Management.Infrastructure.CimInstance</T>
+          <T>System.Object</T>
+        </TN>
+        <ToString>ServerComponent_Web_Http_Tracing</ToString>
+        <Props>
+          <S N="PSComputerName">WIN-HIOQRG66VRJ</S>
+        </Props>
+        <MS>
+          <I32 N="NumericId">159</I32>
+          <Obj N="__ClassMetadata" RefId="122">
+            <TNRef RefId="2" />
+            <LST>
+              <Obj RefId="123">
+                <MS>
+                  <S N="ClassName">MSFT_ServerManagerServerComponentDescriptor</S>
+                  <S N="Namespace">ROOT/Microsoft/Windows/ServerManager</S>
+                  <S N="ServerName">WIN-HIOQRG66VRJ</S>
+                  <I32 N="Hash">-419347112</I32>
+                </MS>
+              </Obj>
+              <Obj RefId="124">
+                <MS>
+                  <S N="ClassName">ServerComponent_Web_Http_Tracing</S>
+                  <S N="Namespace">ROOT/Microsoft/Windows/ServerManager</S>
+                  <S N="ServerName">WIN-HIOQRG66VRJ</S>
+                  <I32 N="Hash">-419995944</I32>
+                  <S N="MiXml">&lt;CLASS NAME="ServerComponent_Web_Http_Tracing" SUPERCLASS="MSFT_ServerManagerServerComponentDescriptor"&gt;&lt;QUALIFIER NAME="dynamic" TYPE="boolean"&gt;&lt;VALUE&gt;true&lt;/VALUE&gt;&lt;/QUALIFIER&gt;&lt;QUALIFIER NAME="provider" TYPE="string"&gt;&lt;VALUE&gt;deploymentprovider&lt;/VALUE&gt;&lt;/QUALIFIER&gt;&lt;QUALIFIER NAME="ClassVersion" TYPE="string"&gt;&lt;VALUE&gt;0.0.0&lt;/VALUE&gt;&lt;/QUALIFIER&gt;&lt;QUALIFIER NAME="DisplayName" TYPE="string" TRANSLATABLE="true"&gt;&lt;VALUE&gt;Web-Http-Tracing&lt;/VALUE&gt;&lt;/QUALIFIER&gt;&lt;/CLASS&gt;</S>
+                </MS>
+              </Obj>
+            </LST>
+          </Obj>
+        </MS>
+      </Obj>
+      <Obj RefId="125">
+        <TN RefId="33">
+          <T>Microsoft.Management.Infrastructure.CimInstance#ROOT/Microsoft/Windows/ServerManager/ServerComponent_Web_ISAPI_Ext</T>
+          <T>Microsoft.Management.Infrastructure.CimInstance#ROOT/Microsoft/Windows/ServerManager/MSFT_ServerManagerServerComponentDescriptor</T>
+          <T>Microsoft.Management.Infrastructure.CimInstance#ServerComponent_Web_ISAPI_Ext</T>
+          <T>Microsoft.Management.Infrastructure.CimInstance#MSFT_ServerManagerServerComponentDescriptor</T>
+          <T>Microsoft.Management.Infrastructure.CimInstance</T>
+          <T>System.Object</T>
+        </TN>
+        <ToString>ServerComponent_Web_ISAPI_Ext</ToString>
+        <Props>
+          <S N="PSComputerName">WIN-HIOQRG66VRJ</S>
+        </Props>
+        <MS>
+          <I32 N="NumericId">152</I32>
+          <Obj N="__ClassMetadata" RefId="126">
+            <TNRef RefId="2" />
+            <LST>
+              <Obj RefId="127">
+                <MS>
+                  <S N="ClassName">MSFT_ServerManagerServerComponentDescriptor</S>
+                  <S N="Namespace">ROOT/Microsoft/Windows/ServerManager</S>
+                  <S N="ServerName">WIN-HIOQRG66VRJ</S>
+                  <I32 N="Hash">-419347112</I32>
+                </MS>
+              </Obj>
+              <Obj RefId="128">
+                <MS>
+                  <S N="ClassName">ServerComponent_Web_ISAPI_Ext</S>
+                  <S N="Namespace">ROOT/Microsoft/Windows/ServerManager</S>
+                  <S N="ServerName">WIN-HIOQRG66VRJ</S>
+                  <I32 N="Hash">-420022984</I32>
+                  <S N="MiXml">&lt;CLASS NAME="ServerComponent_Web_ISAPI_Ext" SUPERCLASS="MSFT_ServerManagerServerComponentDescriptor"&gt;&lt;QUALIFIER NAME="dynamic" TYPE="boolean"&gt;&lt;VALUE&gt;true&lt;/VALUE&gt;&lt;/QUALIFIER&gt;&lt;QUALIFIER NAME="provider" TYPE="string"&gt;&lt;VALUE&gt;deploymentprovider&lt;/VALUE&gt;&lt;/QUALIFIER&gt;&lt;QUALIFIER NAME="ClassVersion" TYPE="string"&gt;&lt;VALUE&gt;0.0.0&lt;/VALUE&gt;&lt;/QUALIFIER&gt;&lt;QUALIFIER NAME="DisplayName" TYPE="string" TRANSLATABLE="true"&gt;&lt;VALUE&gt;Web-ISAPI-Ext&lt;/VALUE&gt;&lt;/QUALIFIER&gt;&lt;/CLASS&gt;</S>
+                </MS>
+              </Obj>
+            </LST>
+          </Obj>
+        </MS>
+      </Obj>
+      <Obj RefId="129">
+        <TN RefId="34">
+          <T>Microsoft.Management.Infrastructure.CimInstance#ROOT/Microsoft/Windows/ServerManager/ServerComponent_Web_ISAPI_Filter</T>
+          <T>Microsoft.Management.Infrastructure.CimInstance#ROOT/Microsoft/Windows/ServerManager/MSFT_ServerManagerServerComponentDescriptor</T>
+          <T>Microsoft.Management.Infrastructure.CimInstance#ServerComponent_Web_ISAPI_Filter</T>
+          <T>Microsoft.Management.Infrastructure.CimInstance#MSFT_ServerManagerServerComponentDescriptor</T>
+          <T>Microsoft.Management.Infrastructure.CimInstance</T>
+          <T>System.Object</T>
+        </TN>
+        <ToString>ServerComponent_Web_ISAPI_Filter</ToString>
+        <Props>
+          <S N="PSComputerName">WIN-HIOQRG66VRJ</S>
+        </Props>
+        <MS>
+          <I32 N="NumericId">153</I32>
+          <Obj N="__ClassMetadata" RefId="130">
+            <TNRef RefId="2" />
+            <LST>
+              <Obj RefId="131">
+                <MS>
+                  <S N="ClassName">MSFT_ServerManagerServerComponentDescriptor</S>
+                  <S N="Namespace">ROOT/Microsoft/Windows/ServerManager</S>
+                  <S N="ServerName">WIN-HIOQRG66VRJ</S>
+                  <I32 N="Hash">-419347112</I32>
+                </MS>
+              </Obj>
+              <Obj RefId="132">
+                <MS>
+                  <S N="ClassName">ServerComponent_Web_ISAPI_Filter</S>
+                  <S N="Namespace">ROOT/Microsoft/Windows/ServerManager</S>
+                  <S N="ServerName">WIN-HIOQRG66VRJ</S>
+                  <I32 N="Hash">-419988664</I32>
+                  <S N="MiXml">&lt;CLASS NAME="ServerComponent_Web_ISAPI_Filter" SUPERCLASS="MSFT_ServerManagerServerComponentDescriptor"&gt;&lt;QUALIFIER NAME="dynamic" TYPE="boolean"&gt;&lt;VALUE&gt;true&lt;/VALUE&gt;&lt;/QUALIFIER&gt;&lt;QUALIFIER NAME="provider" TYPE="string"&gt;&lt;VALUE&gt;deploymentprovider&lt;/VALUE&gt;&lt;/QUALIFIER&gt;&lt;QUALIFIER NAME="ClassVersion" TYPE="string"&gt;&lt;VALUE&gt;0.0.0&lt;/VALUE&gt;&lt;/QUALIFIER&gt;&lt;QUALIFIER NAME="DisplayName" TYPE="string" TRANSLATABLE="true"&gt;&lt;VALUE&gt;Web-ISAPI-Filter&lt;/VALUE&gt;&lt;/QUALIFIER&gt;&lt;/CLASS&gt;</S>
+                </MS>
+              </Obj>
+            </LST>
+          </Obj>
+        </MS>
+      </Obj>
+      <Obj RefId="133">
+        <TN RefId="35">
+          <T>Microsoft.Management.Infrastructure.CimInstance#ROOT/Microsoft/Windows/ServerManager/ServerComponent_Web_Log_Libraries</T>
+          <T>Microsoft.Management.Infrastructure.CimInstance#ROOT/Microsoft/Windows/ServerManager/MSFT_ServerManagerServerComponentDescriptor</T>
+          <T>Microsoft.Management.Infrastructure.CimInstance#ServerComponent_Web_Log_Libraries</T>
+          <T>Microsoft.Management.Infrastructure.CimInstance#MSFT_ServerManagerServerComponentDescriptor</T>
+          <T>Microsoft.Management.Infrastructure.CimInstance</T>
+          <T>System.Object</T>
+        </TN>
+        <ToString>ServerComponent_Web_Log_Libraries</ToString>
+        <Props>
+          <S N="PSComputerName">WIN-HIOQRG66VRJ</S>
+        </Props>
+        <MS>
+          <I32 N="NumericId">157</I32>
+          <Obj N="__ClassMetadata" RefId="134">
+            <TNRef RefId="2" />
+            <LST>
+              <Obj RefId="135">
+                <MS>
+                  <S N="ClassName">MSFT_ServerManagerServerComponentDescriptor</S>
+                  <S N="Namespace">ROOT/Microsoft/Windows/ServerManager</S>
+                  <S N="ServerName">WIN-HIOQRG66VRJ</S>
+                  <I32 N="Hash">-419347112</I32>
+                </MS>
+              </Obj>
+              <Obj RefId="136">
+                <MS>
+                  <S N="ClassName">ServerComponent_Web_Log_Libraries</S>
+                  <S N="Namespace">ROOT/Microsoft/Windows/ServerManager</S>
+                  <S N="ServerName">WIN-HIOQRG66VRJ</S>
+                  <I32 N="Hash">-419973064</I32>
+                  <S N="MiXml">&lt;CLASS NAME="ServerComponent_Web_Log_Libraries" SUPERCLASS="MSFT_ServerManagerServerComponentDescriptor"&gt;&lt;QUALIFIER NAME="dynamic" TYPE="boolean"&gt;&lt;VALUE&gt;true&lt;/VALUE&gt;&lt;/QUALIFIER&gt;&lt;QUALIFIER NAME="provider" TYPE="string"&gt;&lt;VALUE&gt;deploymentprovider&lt;/VALUE&gt;&lt;/QUALIFIER&gt;&lt;QUALIFIER NAME="ClassVersion" TYPE="string"&gt;&lt;VALUE&gt;0.0.0&lt;/VALUE&gt;&lt;/QUALIFIER&gt;&lt;QUALIFIER NAME="DisplayName" TYPE="string" TRANSLATABLE="true"&gt;&lt;VALUE&gt;Web-Log-Libraries&lt;/VALUE&gt;&lt;/QUALIFIER&gt;&lt;/CLASS&gt;</S>
+                </MS>
+              </Obj>
+            </LST>
+          </Obj>
+        </MS>
+      </Obj>
+      <Obj RefId="137">
+        <TN RefId="36">
+          <T>Microsoft.Management.Infrastructure.CimInstance#ROOT/Microsoft/Windows/ServerManager/ServerComponent_Web_Metabase</T>
+          <T>Microsoft.Management.Infrastructure.CimInstance#ROOT/Microsoft/Windows/ServerManager/MSFT_ServerManagerServerComponentDescriptor</T>
+          <T>Microsoft.Management.Infrastructure.CimInstance#ServerComponent_Web_Metabase</T>
+          <T>Microsoft.Management.Infrastructure.CimInstance#MSFT_ServerManagerServerComponentDescriptor</T>
+          <T>Microsoft.Management.Infrastructure.CimInstance</T>
+          <T>System.Object</T>
+        </TN>
+        <ToString>ServerComponent_Web_Metabase</ToString>
+        <Props>
+          <S N="PSComputerName">WIN-HIOQRG66VRJ</S>
+        </Props>
+        <MS>
+          <I32 N="NumericId">179</I32>
+          <Obj N="__ClassMetadata" RefId="138">
+            <TNRef RefId="2" />
+            <LST>
+              <Obj RefId="139">
+                <MS>
+                  <S N="ClassName">MSFT_ServerManagerServerComponentDescriptor</S>
+                  <S N="Namespace">ROOT/Microsoft/Windows/ServerManager</S>
+                  <S N="ServerName">WIN-HIOQRG66VRJ</S>
+                  <I32 N="Hash">-419347112</I32>
+                </MS>
+              </Obj>
+              <Obj RefId="140">
+                <MS>
+                  <S N="ClassName">ServerComponent_Web_Metabase</S>
+                  <S N="Namespace">ROOT/Microsoft/Windows/ServerManager</S>
+                  <S N="ServerName">WIN-HIOQRG66VRJ</S>
+                  <I32 N="Hash">-419963704</I32>
+                  <S N="MiXml">&lt;CLASS NAME="ServerComponent_Web_Metabase" SUPERCLASS="MSFT_ServerManagerServerComponentDescriptor"&gt;&lt;QUALIFIER NAME="dynamic" TYPE="boolean"&gt;&lt;VALUE&gt;true&lt;/VALUE&gt;&lt;/QUALIFIER&gt;&lt;QUALIFIER NAME="provider" TYPE="string"&gt;&lt;VALUE&gt;deploymentprovider&lt;/VALUE&gt;&lt;/QUALIFIER&gt;&lt;QUALIFIER NAME="ClassVersion" TYPE="string"&gt;&lt;VALUE&gt;0.0.0&lt;/VALUE&gt;&lt;/QUALIFIER&gt;&lt;QUALIFIER NAME="DisplayName" TYPE="string" TRANSLATABLE="true"&gt;&lt;VALUE&gt;Web-Metabase&lt;/VALUE&gt;&lt;/QUALIFIER&gt;&lt;/CLASS&gt;</S>
+                </MS>
+              </Obj>
+            </LST>
+          </Obj>
+        </MS>
+      </Obj>
+      <Obj RefId="141">
+        <TN RefId="37">
+          <T>Microsoft.Management.Infrastructure.CimInstance#ROOT/Microsoft/Windows/ServerManager/ServerComponent_Web_Mgmt_Compat</T>
+          <T>Microsoft.Management.Infrastructure.CimInstance#ROOT/Microsoft/Windows/ServerManager/MSFT_ServerManagerServerComponentDescriptor</T>
+          <T>Microsoft.Management.Infrastructure.CimInstance#ServerComponent_Web_Mgmt_Compat</T>
+          <T>Microsoft.Management.Infrastructure.CimInstance#MSFT_ServerManagerServerComponentDescriptor</T>
+          <T>Microsoft.Management.Infrastructure.CimInstance</T>
+          <T>System.Object</T>
+        </TN>
+        <ToString>ServerComponent_Web_Mgmt_Compat</ToString>
+        <Props>
+          <S N="PSComputerName">WIN-HIOQRG66VRJ</S>
+        </Props>
+        <MS>
+          <I32 N="NumericId">178</I32>
+          <Obj N="__ClassMetadata" RefId="142">
+            <TNRef RefId="2" />
+            <LST>
+              <Obj RefId="143">
+                <MS>
+                  <S N="ClassName">MSFT_ServerManagerServerComponentDescriptor</S>
+                  <S N="Namespace">ROOT/Microsoft/Windows/ServerManager</S>
+                  <S N="ServerName">WIN-HIOQRG66VRJ</S>
+                  <I32 N="Hash">-419347112</I32>
+                </MS>
+              </Obj>
+              <Obj RefId="144">
+                <MS>
+                  <S N="ClassName">ServerComponent_Web_Mgmt_Compat</S>
+                  <S N="Namespace">ROOT/Microsoft/Windows/ServerManager</S>
+                  <S N="ServerName">WIN-HIOQRG66VRJ</S>
+                  <I32 N="Hash">-419979304</I32>
+                  <S N="MiXml">&lt;CLASS NAME="ServerComponent_Web_Mgmt_Compat" SUPERCLASS="MSFT_ServerManagerServerComponentDescriptor"&gt;&lt;QUALIFIER NAME="dynamic" TYPE="boolean"&gt;&lt;VALUE&gt;true&lt;/VALUE&gt;&lt;/QUALIFIER&gt;&lt;QUALIFIER NAME="provider" TYPE="string"&gt;&lt;VALUE&gt;deploymentprovider&lt;/VALUE&gt;&lt;/QUALIFIER&gt;&lt;QUALIFIER NAME="ClassVersion" TYPE="string"&gt;&lt;VALUE&gt;0.0.0&lt;/VALUE&gt;&lt;/QUALIFIER&gt;&lt;QUALIFIER NAME="DisplayName" TYPE="string" TRANSLATABLE="true"&gt;&lt;VALUE&gt;Web-Mgmt-Compat&lt;/VALUE&gt;&lt;/QUALIFIER&gt;&lt;/CLASS&gt;</S>
+                </MS>
+              </Obj>
+            </LST>
+          </Obj>
+        </MS>
+      </Obj>
+      <Obj RefId="145">
+        <TN RefId="38">
+          <T>Microsoft.Management.Infrastructure.CimInstance#ROOT/Microsoft/Windows/ServerManager/ServerComponent_Web_Mgmt_Console</T>
+          <T>Microsoft.Management.Infrastructure.CimInstance#ROOT/Microsoft/Windows/ServerManager/MSFT_ServerManagerServerComponentDescriptor</T>
+          <T>Microsoft.Management.Infrastructure.CimInstance#ServerComponent_Web_Mgmt_Console</T>
+          <T>Microsoft.Management.Infrastructure.CimInstance#MSFT_ServerManagerServerComponentDescriptor</T>
+          <T>Microsoft.Management.Infrastructure.CimInstance</T>
+          <T>System.Object</T>
+        </TN>
+        <ToString>ServerComponent_Web_Mgmt_Console</ToString>
+        <Props>
+          <S N="PSComputerName">WIN-HIOQRG66VRJ</S>
+        </Props>
+        <MS>
+          <I32 N="NumericId">175</I32>
+          <Obj N="__ClassMetadata" RefId="146">
+            <TNRef RefId="2" />
+            <LST>
+              <Obj RefId="147">
+                <MS>
+                  <S N="ClassName">MSFT_ServerManagerServerComponentDescriptor</S>
+                  <S N="Namespace">ROOT/Microsoft/Windows/ServerManager</S>
+                  <S N="ServerName">WIN-HIOQRG66VRJ</S>
+                  <I32 N="Hash">-419347112</I32>
+                </MS>
+              </Obj>
+              <Obj RefId="148">
+                <MS>
+                  <S N="ClassName">ServerComponent_Web_Mgmt_Console</S>
+                  <S N="Namespace">ROOT/Microsoft/Windows/ServerManager</S>
+                  <S N="ServerName">WIN-HIOQRG66VRJ</S>
+                  <I32 N="Hash">-419961624</I32>
+                  <S N="MiXml">&lt;CLASS NAME="ServerComponent_Web_Mgmt_Console" SUPERCLASS="MSFT_ServerManagerServerComponentDescriptor"&gt;&lt;QUALIFIER NAME="dynamic" TYPE="boolean"&gt;&lt;VALUE&gt;true&lt;/VALUE&gt;&lt;/QUALIFIER&gt;&lt;QUALIFIER NAME="provider" TYPE="string"&gt;&lt;VALUE&gt;deploymentprovider&lt;/VALUE&gt;&lt;/QUALIFIER&gt;&lt;QUALIFIER NAME="ClassVersion" TYPE="string"&gt;&lt;VALUE&gt;0.0.0&lt;/VALUE&gt;&lt;/QUALIFIER&gt;&lt;QUALIFIER NAME="DisplayName" TYPE="string" TRANSLATABLE="true"&gt;&lt;VALUE&gt;Web-Mgmt-Console&lt;/VALUE&gt;&lt;/QUALIFIER&gt;&lt;/CLASS&gt;</S>
+                </MS>
+              </Obj>
+            </LST>
+          </Obj>
+        </MS>
+      </Obj>
+      <Obj RefId="149">
+        <TN RefId="39">
+          <T>Microsoft.Management.Infrastructure.CimInstance#ROOT/Microsoft/Windows/ServerManager/ServerComponent_Web_Mgmt_Tools</T>
+          <T>Microsoft.Management.Infrastructure.CimInstance#ROOT/Microsoft/Windows/ServerManager/MSFT_ServerManagerServerComponentDescriptor</T>
+          <T>Microsoft.Management.Infrastructure.CimInstance#ServerComponent_Web_Mgmt_Tools</T>
+          <T>Microsoft.Management.Infrastructure.CimInstance#MSFT_ServerManagerServerComponentDescriptor</T>
+          <T>Microsoft.Management.Infrastructure.CimInstance</T>
+          <T>System.Object</T>
+        </TN>
+        <ToString>ServerComponent_Web_Mgmt_Tools</ToString>
+        <Props>
+          <S N="PSComputerName">WIN-HIOQRG66VRJ</S>
+        </Props>
+        <MS>
+          <I32 N="NumericId">174</I32>
+          <Obj N="__ClassMetadata" RefId="150">
+            <TNRef RefId="2" />
+            <LST>
+              <Obj RefId="151">
+                <MS>
+                  <S N="ClassName">MSFT_ServerManagerServerComponentDescriptor</S>
+                  <S N="Namespace">ROOT/Microsoft/Windows/ServerManager</S>
+                  <S N="ServerName">WIN-HIOQRG66VRJ</S>
+                  <I32 N="Hash">-419347112</I32>
+                </MS>
+              </Obj>
+              <Obj RefId="152">
+                <MS>
+                  <S N="ClassName">ServerComponent_Web_Mgmt_Tools</S>
+                  <S N="Namespace">ROOT/Microsoft/Windows/ServerManager</S>
+                  <S N="ServerName">WIN-HIOQRG66VRJ</S>
+                  <I32 N="Hash">-419964744</I32>
+                  <S N="MiXml">&lt;CLASS NAME="ServerComponent_Web_Mgmt_Tools" SUPERCLASS="MSFT_ServerManagerServerComponentDescriptor"&gt;&lt;QUALIFIER NAME="dynamic" TYPE="boolean"&gt;&lt;VALUE&gt;true&lt;/VALUE&gt;&lt;/QUALIFIER&gt;&lt;QUALIFIER NAME="provider" TYPE="string"&gt;&lt;VALUE&gt;deploymentprovider&lt;/VALUE&gt;&lt;/QUALIFIER&gt;&lt;QUALIFIER NAME="ClassVersion" TYPE="string"&gt;&lt;VALUE&gt;0.0.0&lt;/VALUE&gt;&lt;/QUALIFIER&gt;&lt;QUALIFIER NAME="DisplayName" TYPE="string" TRANSLATABLE="true"&gt;&lt;VALUE&gt;Web-Mgmt-Tools&lt;/VALUE&gt;&lt;/QUALIFIER&gt;&lt;/CLASS&gt;</S>
+                </MS>
+              </Obj>
+            </LST>
+          </Obj>
+        </MS>
+      </Obj>
+      <Obj RefId="153">
+        <TN RefId="40">
+          <T>Microsoft.Management.Infrastructure.CimInstance#ROOT/Microsoft/Windows/ServerManager/ServerComponent_Web_Net_Ext45</T>
+          <T>Microsoft.Management.Infrastructure.CimInstance#ROOT/Microsoft/Windows/ServerManager/MSFT_ServerManagerServerComponentDescriptor</T>
+          <T>Microsoft.Management.Infrastructure.CimInstance#ServerComponent_Web_Net_Ext45</T>
+          <T>Microsoft.Management.Infrastructure.CimInstance#MSFT_ServerManagerServerComponentDescriptor</T>
+          <T>Microsoft.Management.Infrastructure.CimInstance</T>
+          <T>System.Object</T>
+        </TN>
+        <ToString>ServerComponent_Web_Net_Ext45</ToString>
+        <Props>
+          <S N="PSComputerName">WIN-HIOQRG66VRJ</S>
+        </Props>
+        <MS>
+          <I32 N="NumericId">414</I32>
+          <Obj N="__ClassMetadata" RefId="154">
+            <TNRef RefId="2" />
+            <LST>
+              <Obj RefId="155">
+                <MS>
+                  <S N="ClassName">MSFT_ServerManagerServerComponentDescriptor</S>
+                  <S N="Namespace">ROOT/Microsoft/Windows/ServerManager</S>
+                  <S N="ServerName">WIN-HIOQRG66VRJ</S>
+                  <I32 N="Hash">-419347112</I32>
+                </MS>
+              </Obj>
+              <Obj RefId="156">
+                <MS>
+                  <S N="ClassName">ServerComponent_Web_Net_Ext45</S>
+                  <S N="Namespace">ROOT/Microsoft/Windows/ServerManager</S>
+                  <S N="ServerName">WIN-HIOQRG66VRJ</S>
+                  <I32 N="Hash">-419950184</I32>
+                  <S N="MiXml">&lt;CLASS NAME="ServerComponent_Web_Net_Ext45" SUPERCLASS="MSFT_ServerManagerServerComponentDescriptor"&gt;&lt;QUALIFIER NAME="dynamic" TYPE="boolean"&gt;&lt;VALUE&gt;true&lt;/VALUE&gt;&lt;/QUALIFIER&gt;&lt;QUALIFIER NAME="provider" TYPE="string"&gt;&lt;VALUE&gt;deploymentprovider&lt;/VALUE&gt;&lt;/QUALIFIER&gt;&lt;QUALIFIER NAME="ClassVersion" TYPE="string"&gt;&lt;VALUE&gt;0.0.0&lt;/VALUE&gt;&lt;/QUALIFIER&gt;&lt;QUALIFIER NAME="DisplayName" TYPE="string" TRANSLATABLE="true"&gt;&lt;VALUE&gt;Web-Net-Ext45&lt;/VALUE&gt;&lt;/QUALIFIER&gt;&lt;/CLASS&gt;</S>
+                </MS>
+              </Obj>
+            </LST>
+          </Obj>
+        </MS>
+      </Obj>
+      <Obj RefId="157">
+        <TN RefId="41">
+          <T>Microsoft.Management.Infrastructure.CimInstance#ROOT/Microsoft/Windows/ServerManager/ServerComponent_Web_Performance</T>
+          <T>Microsoft.Management.Infrastructure.CimInstance#ROOT/Microsoft/Windows/ServerManager/MSFT_ServerManagerServerComponentDescriptor</T>
+          <T>Microsoft.Management.Infrastructure.CimInstance#ServerComponent_Web_Performance</T>
+          <T>Microsoft.Management.Infrastructure.CimInstance#MSFT_ServerManagerServerComponentDescriptor</T>
+          <T>Microsoft.Management.Infrastructure.CimInstance</T>
+          <T>System.Object</T>
+        </TN>
+        <ToString>ServerComponent_Web_Performance</ToString>
+        <Props>
+          <S N="PSComputerName">WIN-HIOQRG66VRJ</S>
+        </Props>
+        <MS>
+          <I32 N="NumericId">171</I32>
+          <Obj N="__ClassMetadata" RefId="158">
+            <TNRef RefId="2" />
+            <LST>
+              <Obj RefId="159">
+                <MS>
+                  <S N="ClassName">MSFT_ServerManagerServerComponentDescriptor</S>
+                  <S N="Namespace">ROOT/Microsoft/Windows/ServerManager</S>
+                  <S N="ServerName">WIN-HIOQRG66VRJ</S>
+                  <I32 N="Hash">-419347112</I32>
+                </MS>
+              </Obj>
+              <Obj RefId="160">
+                <MS>
+                  <S N="ClassName">ServerComponent_Web_Performance</S>
+                  <S N="Namespace">ROOT/Microsoft/Windows/ServerManager</S>
+                  <S N="ServerName">WIN-HIOQRG66VRJ</S>
+                  <I32 N="Hash">-419928344</I32>
+                  <S N="MiXml">&lt;CLASS NAME="ServerComponent_Web_Performance" SUPERCLASS="MSFT_ServerManagerServerComponentDescriptor"&gt;&lt;QUALIFIER NAME="dynamic" TYPE="boolean"&gt;&lt;VALUE&gt;true&lt;/VALUE&gt;&lt;/QUALIFIER&gt;&lt;QUALIFIER NAME="provider" TYPE="string"&gt;&lt;VALUE&gt;deploymentprovider&lt;/VALUE&gt;&lt;/QUALIFIER&gt;&lt;QUALIFIER NAME="ClassVersion" TYPE="string"&gt;&lt;VALUE&gt;0.0.0&lt;/VALUE&gt;&lt;/QUALIFIER&gt;&lt;QUALIFIER NAME="DisplayName" TYPE="string" TRANSLATABLE="true"&gt;&lt;VALUE&gt;Web-Performance&lt;/VALUE&gt;&lt;/QUALIFIER&gt;&lt;/CLASS&gt;</S>
+                </MS>
+              </Obj>
+            </LST>
+          </Obj>
+        </MS>
+      </Obj>
+      <Obj RefId="161">
+        <TN RefId="42">
+          <T>Microsoft.Management.Infrastructure.CimInstance#ROOT/Microsoft/Windows/ServerManager/ServerComponent_Web_Request_Monitor</T>
+          <T>Microsoft.Management.Infrastructure.CimInstance#ROOT/Microsoft/Windows/ServerManager/MSFT_ServerManagerServerComponentDescriptor</T>
+          <T>Microsoft.Management.Infrastructure.CimInstance#ServerComponent_Web_Request_Monitor</T>
+          <T>Microsoft.Management.Infrastructure.CimInstance#MSFT_ServerManagerServerComponentDescriptor</T>
+          <T>Microsoft.Management.Infrastructure.CimInstance</T>
+          <T>System.Object</T>
+        </TN>
+        <ToString>ServerComponent_Web_Request_Monitor</ToString>
+        <Props>
+          <S N="PSComputerName">WIN-HIOQRG66VRJ</S>
+        </Props>
+        <MS>
+          <I32 N="NumericId">158</I32>
+          <Obj N="__ClassMetadata" RefId="162">
+            <TNRef RefId="2" />
+            <LST>
+              <Obj RefId="163">
+                <MS>
+                  <S N="ClassName">MSFT_ServerManagerServerComponentDescriptor</S>
+                  <S N="Namespace">ROOT/Microsoft/Windows/ServerManager</S>
+                  <S N="ServerName">WIN-HIOQRG66VRJ</S>
+                  <I32 N="Hash">-419347112</I32>
+                </MS>
+              </Obj>
+              <Obj RefId="164">
+                <MS>
+                  <S N="ClassName">ServerComponent_Web_Request_Monitor</S>
+                  <S N="Namespace">ROOT/Microsoft/Windows/ServerManager</S>
+                  <S N="ServerName">WIN-HIOQRG66VRJ</S>
+                  <I32 N="Hash">-419952264</I32>
+                  <S N="MiXml">&lt;CLASS NAME="ServerComponent_Web_Request_Monitor" SUPERCLASS="MSFT_ServerManagerServerComponentDescriptor"&gt;&lt;QUALIFIER NAME="dynamic" TYPE="boolean"&gt;&lt;VALUE&gt;true&lt;/VALUE&gt;&lt;/QUALIFIER&gt;&lt;QUALIFIER NAME="provider" TYPE="string"&gt;&lt;VALUE&gt;deploymentprovider&lt;/VALUE&gt;&lt;/QUALIFIER&gt;&lt;QUALIFIER NAME="ClassVersion" TYPE="string"&gt;&lt;VALUE&gt;0.0.0&lt;/VALUE&gt;&lt;/QUALIFIER&gt;&lt;QUALIFIER NAME="DisplayName" TYPE="string" TRANSLATABLE="true"&gt;&lt;VALUE&gt;Web-Request-Monitor&lt;/VALUE&gt;&lt;/QUALIFIER&gt;&lt;/CLASS&gt;</S>
+                </MS>
+              </Obj>
+            </LST>
+          </Obj>
+        </MS>
+      </Obj>
+      <Obj RefId="165">
+        <TN RefId="43">
+          <T>Microsoft.Management.Infrastructure.CimInstance#ROOT/Microsoft/Windows/ServerManager/ServerComponent_Web_Scripting_Tools</T>
+          <T>Microsoft.Management.Infrastructure.CimInstance#ROOT/Microsoft/Windows/ServerManager/MSFT_ServerManagerServerComponentDescriptor</T>
+          <T>Microsoft.Management.Infrastructure.CimInstance#ServerComponent_Web_Scripting_Tools</T>
+          <T>Microsoft.Management.Infrastructure.CimInstance#MSFT_ServerManagerServerComponentDescriptor</T>
+          <T>Microsoft.Management.Infrastructure.CimInstance</T>
+          <T>System.Object</T>
+        </TN>
+        <ToString>ServerComponent_Web_Scripting_Tools</ToString>
+        <Props>
+          <S N="PSComputerName">WIN-HIOQRG66VRJ</S>
+        </Props>
+        <MS>
+          <I32 N="NumericId">176</I32>
+          <Obj N="__ClassMetadata" RefId="166">
+            <TNRef RefId="2" />
+            <LST>
+              <Obj RefId="167">
+                <MS>
+                  <S N="ClassName">MSFT_ServerManagerServerComponentDescriptor</S>
+                  <S N="Namespace">ROOT/Microsoft/Windows/ServerManager</S>
+                  <S N="ServerName">WIN-HIOQRG66VRJ</S>
+                  <I32 N="Hash">-419347112</I32>
+                </MS>
+              </Obj>
+              <Obj RefId="168">
+                <MS>
+                  <S N="ClassName">ServerComponent_Web_Scripting_Tools</S>
+                  <S N="Namespace">ROOT/Microsoft/Windows/ServerManager</S>
+                  <S N="ServerName">WIN-HIOQRG66VRJ</S>
+                  <I32 N="Hash">-419937704</I32>
+                  <S N="MiXml">&lt;CLASS NAME="ServerComponent_Web_Scripting_Tools" SUPERCLASS="MSFT_ServerManagerServerComponentDescriptor"&gt;&lt;QUALIFIER NAME="dynamic" TYPE="boolean"&gt;&lt;VALUE&gt;true&lt;/VALUE&gt;&lt;/QUALIFIER&gt;&lt;QUALIFIER NAME="provider" TYPE="string"&gt;&lt;VALUE&gt;deploymentprovider&lt;/VALUE&gt;&lt;/QUALIFIER&gt;&lt;QUALIFIER NAME="ClassVersion" TYPE="string"&gt;&lt;VALUE&gt;0.0.0&lt;/VALUE&gt;&lt;/QUALIFIER&gt;&lt;QUALIFIER NAME="DisplayName" TYPE="string" TRANSLATABLE="true"&gt;&lt;VALUE&gt;Web-Scripting-Tools&lt;/VALUE&gt;&lt;/QUALIFIER&gt;&lt;/CLASS&gt;</S>
+                </MS>
+              </Obj>
+            </LST>
+          </Obj>
+        </MS>
+      </Obj>
+      <Obj RefId="169">
+        <TN RefId="44">
+          <T>Microsoft.Management.Infrastructure.CimInstance#ROOT/Microsoft/Windows/ServerManager/ServerComponent_Web_Security</T>
+          <T>Microsoft.Management.Infrastructure.CimInstance#ROOT/Microsoft/Windows/ServerManager/MSFT_ServerManagerServerComponentDescriptor</T>
+          <T>Microsoft.Management.Infrastructure.CimInstance#ServerComponent_Web_Security</T>
+          <T>Microsoft.Management.Infrastructure.CimInstance#MSFT_ServerManagerServerComponentDescriptor</T>
+          <T>Microsoft.Management.Infrastructure.CimInstance</T>
+          <T>System.Object</T>
+        </TN>
+        <ToString>ServerComponent_Web_Security</ToString>
+        <Props>
+          <S N="PSComputerName">WIN-HIOQRG66VRJ</S>
+        </Props>
+        <MS>
+          <I32 N="NumericId">162</I32>
+          <Obj N="__ClassMetadata" RefId="170">
+            <TNRef RefId="2" />
+            <LST>
+              <Obj RefId="171">
+                <MS>
+                  <S N="ClassName">MSFT_ServerManagerServerComponentDescriptor</S>
+                  <S N="Namespace">ROOT/Microsoft/Windows/ServerManager</S>
+                  <S N="ServerName">WIN-HIOQRG66VRJ</S>
+                  <I32 N="Hash">-419347112</I32>
+                </MS>
+              </Obj>
+              <Obj RefId="172">
+                <MS>
+                  <S N="ClassName">ServerComponent_Web_Security</S>
+                  <S N="Namespace">ROOT/Microsoft/Windows/ServerManager</S>
+                  <S N="ServerName">WIN-HIOQRG66VRJ</S>
+                  <I32 N="Hash">-419951224</I32>
+                  <S N="MiXml">&lt;CLASS NAME="ServerComponent_Web_Security" SUPERCLASS="MSFT_ServerManagerServerComponentDescriptor"&gt;&lt;QUALIFIER NAME="dynamic" TYPE="boolean"&gt;&lt;VALUE&gt;true&lt;/VALUE&gt;&lt;/QUALIFIER&gt;&lt;QUALIFIER NAME="provider" TYPE="string"&gt;&lt;VALUE&gt;deploymentprovider&lt;/VALUE&gt;&lt;/QUALIFIER&gt;&lt;QUALIFIER NAME="ClassVersion" TYPE="string"&gt;&lt;VALUE&gt;0.0.0&lt;/VALUE&gt;&lt;/QUALIFIER&gt;&lt;QUALIFIER NAME="DisplayName" TYPE="string" TRANSLATABLE="true"&gt;&lt;VALUE&gt;Web-Security&lt;/VALUE&gt;&lt;/QUALIFIER&gt;&lt;/CLASS&gt;</S>
+                </MS>
+              </Obj>
+            </LST>
+          </Obj>
+        </MS>
+      </Obj>
+      <Obj RefId="173">
+        <TN RefId="45">
+          <T>Microsoft.Management.Infrastructure.CimInstance#ROOT/Microsoft/Windows/ServerManager/ServerComponent_Web_Server</T>
+          <T>Microsoft.Management.Infrastructure.CimInstance#ROOT/Microsoft/Windows/ServerManager/MSFT_ServerManagerServerComponentDescriptor</T>
+          <T>Microsoft.Management.Infrastructure.CimInstance#ServerComponent_Web_Server</T>
+          <T>Microsoft.Management.Infrastructure.CimInstance#MSFT_ServerManagerServerComponentDescriptor</T>
+          <T>Microsoft.Management.Infrastructure.CimInstance</T>
+          <T>System.Object</T>
+        </TN>
+        <ToString>ServerComponent_Web_Server</ToString>
+        <Props>
+          <S N="PSComputerName">WIN-HIOQRG66VRJ</S>
+        </Props>
+        <MS>
+          <I32 N="NumericId">2</I32>
+          <Obj N="__ClassMetadata" RefId="174">
+            <TNRef RefId="2" />
+            <LST>
+              <Obj RefId="175">
+                <MS>
+                  <S N="ClassName">MSFT_ServerManagerServerComponentDescriptor</S>
+                  <S N="Namespace">ROOT/Microsoft/Windows/ServerManager</S>
+                  <S N="ServerName">WIN-HIOQRG66VRJ</S>
+                  <I32 N="Hash">-419347112</I32>
+                </MS>
+              </Obj>
+              <Obj RefId="176">
+                <MS>
+                  <S N="ClassName">ServerComponent_Web_Server</S>
+                  <S N="Namespace">ROOT/Microsoft/Windows/ServerManager</S>
+                  <S N="ServerName">WIN-HIOQRG66VRJ</S>
+                  <I32 N="Hash">-419960584</I32>
+                  <S N="MiXml">&lt;CLASS NAME="ServerComponent_Web_Server" SUPERCLASS="MSFT_ServerManagerServerComponentDescriptor"&gt;&lt;QUALIFIER NAME="dynamic" TYPE="boolean"&gt;&lt;VALUE&gt;true&lt;/VALUE&gt;&lt;/QUALIFIER&gt;&lt;QUALIFIER NAME="provider" TYPE="string"&gt;&lt;VALUE&gt;deploymentprovider&lt;/VALUE&gt;&lt;/QUALIFIER&gt;&lt;QUALIFIER NAME="ClassVersion" TYPE="string"&gt;&lt;VALUE&gt;0.0.0&lt;/VALUE&gt;&lt;/QUALIFIER&gt;&lt;QUALIFIER NAME="DisplayName" TYPE="string" TRANSLATABLE="true"&gt;&lt;VALUE&gt;Web-Server&lt;/VALUE&gt;&lt;/QUALIFIER&gt;&lt;/CLASS&gt;</S>
+                </MS>
+              </Obj>
+            </LST>
+          </Obj>
+        </MS>
+      </Obj>
+      <Obj RefId="177">
+        <TN RefId="46">
+          <T>Microsoft.Management.Infrastructure.CimInstance#ROOT/Microsoft/Windows/ServerManager/ServerComponent_Web_Stat_Compression</T>
+          <T>Microsoft.Management.Infrastructure.CimInstance#ROOT/Microsoft/Windows/ServerManager/MSFT_ServerManagerServerComponentDescriptor</T>
+          <T>Microsoft.Management.Infrastructure.CimInstance#ServerComponent_Web_Stat_Compression</T>
+          <T>Microsoft.Management.Infrastructure.CimInstance#MSFT_ServerManagerServerComponentDescriptor</T>
+          <T>Microsoft.Management.Infrastructure.CimInstance</T>
+          <T>System.Object</T>
+        </TN>
+        <ToString>ServerComponent_Web_Stat_Compression</ToString>
+        <Props>
+          <S N="PSComputerName">WIN-HIOQRG66VRJ</S>
+        </Props>
+        <MS>
+          <I32 N="NumericId">172</I32>
+          <Obj N="__ClassMetadata" RefId="178">
+            <TNRef RefId="2" />
+            <LST>
+              <Obj RefId="179">
+                <MS>
+                  <S N="ClassName">MSFT_ServerManagerServerComponentDescriptor</S>
+                  <S N="Namespace">ROOT/Microsoft/Windows/ServerManager</S>
+                  <S N="ServerName">WIN-HIOQRG66VRJ</S>
+                  <I32 N="Hash">-419347112</I32>
+                </MS>
+              </Obj>
+              <Obj RefId="180">
+                <MS>
+                  <S N="ClassName">ServerComponent_Web_Stat_Compression</S>
+                  <S N="Namespace">ROOT/Microsoft/Windows/ServerManager</S>
+                  <S N="ServerName">WIN-HIOQRG66VRJ</S>
+                  <I32 N="Hash">-419904424</I32>
+                  <S N="MiXml">&lt;CLASS NAME="ServerComponent_Web_Stat_Compression" SUPERCLASS="MSFT_ServerManagerServerComponentDescriptor"&gt;&lt;QUALIFIER NAME="dynamic" TYPE="boolean"&gt;&lt;VALUE&gt;true&lt;/VALUE&gt;&lt;/QUALIFIER&gt;&lt;QUALIFIER NAME="provider" TYPE="string"&gt;&lt;VALUE&gt;deploymentprovider&lt;/VALUE&gt;&lt;/QUALIFIER&gt;&lt;QUALIFIER NAME="ClassVersion" TYPE="string"&gt;&lt;VALUE&gt;0.0.0&lt;/VALUE&gt;&lt;/QUALIFIER&gt;&lt;QUALIFIER NAME="DisplayName" TYPE="string" TRANSLATABLE="true"&gt;&lt;VALUE&gt;Web-Stat-Compression&lt;/VALUE&gt;&lt;/QUALIFIER&gt;&lt;/CLASS&gt;</S>
+                </MS>
+              </Obj>
+            </LST>
+          </Obj>
+        </MS>
+      </Obj>
+      <Obj RefId="181">
+        <TN RefId="47">
+          <T>Microsoft.Management.Infrastructure.CimInstance#ROOT/Microsoft/Windows/ServerManager/ServerComponent_Web_Static_Content</T>
+          <T>Microsoft.Management.Infrastructure.CimInstance#ROOT/Microsoft/Windows/ServerManager/MSFT_ServerManagerServerComponentDescriptor</T>
+          <T>Microsoft.Management.Infrastructure.CimInstance#ServerComponent_Web_Static_Content</T>
+          <T>Microsoft.Management.Infrastructure.CimInstance#MSFT_ServerManagerServerComponentDescriptor</T>
+          <T>Microsoft.Management.Infrastructure.CimInstance</T>
+          <T>System.Object</T>
+        </TN>
+        <ToString>ServerComponent_Web_Static_Content</ToString>
+        <Props>
+          <S N="PSComputerName">WIN-HIOQRG66VRJ</S>
+        </Props>
+        <MS>
+          <I32 N="NumericId">142</I32>
+          <Obj N="__ClassMetadata" RefId="182">
+            <TNRef RefId="2" />
+            <LST>
+              <Obj RefId="183">
+                <MS>
+                  <S N="ClassName">MSFT_ServerManagerServerComponentDescriptor</S>
+                  <S N="Namespace">ROOT/Microsoft/Windows/ServerManager</S>
+                  <S N="ServerName">WIN-HIOQRG66VRJ</S>
+                  <I32 N="Hash">-419347112</I32>
+                </MS>
+              </Obj>
+              <Obj RefId="184">
+                <MS>
+                  <S N="ClassName">ServerComponent_Web_Static_Content</S>
+                  <S N="Namespace">ROOT/Microsoft/Windows/ServerManager</S>
+                  <S N="ServerName">WIN-HIOQRG66VRJ</S>
+                  <I32 N="Hash">-419912744</I32>
+                  <S N="MiXml">&lt;CLASS NAME="ServerComponent_Web_Static_Content" SUPERCLASS="MSFT_ServerManagerServerComponentDescriptor"&gt;&lt;QUALIFIER NAME="dynamic" TYPE="boolean"&gt;&lt;VALUE&gt;true&lt;/VALUE&gt;&lt;/QUALIFIER&gt;&lt;QUALIFIER NAME="provider" TYPE="string"&gt;&lt;VALUE&gt;deploymentprovider&lt;/VALUE&gt;&lt;/QUALIFIER&gt;&lt;QUALIFIER NAME="ClassVersion" TYPE="string"&gt;&lt;VALUE&gt;0.0.0&lt;/VALUE&gt;&lt;/QUALIFIER&gt;&lt;QUALIFIER NAME="DisplayName" TYPE="string" TRANSLATABLE="true"&gt;&lt;VALUE&gt;Web-Static-Content&lt;/VALUE&gt;&lt;/QUALIFIER&gt;&lt;/CLASS&gt;</S>
+                </MS>
+              </Obj>
+            </LST>
+          </Obj>
+        </MS>
+      </Obj>
+      <Obj RefId="185">
+        <TN RefId="48">
+          <T>Microsoft.Management.Infrastructure.CimInstance#ROOT/Microsoft/Windows/ServerManager/ServerComponent_Web_WebServer</T>
+          <T>Microsoft.Management.Infrastructure.CimInstance#ROOT/Microsoft/Windows/ServerManager/MSFT_ServerManagerServerComponentDescriptor</T>
+          <T>Microsoft.Management.Infrastructure.CimInstance#ServerComponent_Web_WebServer</T>
+          <T>Microsoft.Management.Infrastructure.CimInstance#MSFT_ServerManagerServerComponentDescriptor</T>
+          <T>Microsoft.Management.Infrastructure.CimInstance</T>
+          <T>System.Object</T>
+        </TN>
+        <ToString>ServerComponent_Web_WebServer</ToString>
+        <Props>
+          <S N="PSComputerName">WIN-HIOQRG66VRJ</S>
+        </Props>
+        <MS>
+          <I32 N="NumericId">140</I32>
+          <Obj N="__ClassMetadata" RefId="186">
+            <TNRef RefId="2" />
+            <LST>
+              <Obj RefId="187">
+                <MS>
+                  <S N="ClassName">MSFT_ServerManagerServerComponentDescriptor</S>
+                  <S N="Namespace">ROOT/Microsoft/Windows/ServerManager</S>
+                  <S N="ServerName">WIN-HIOQRG66VRJ</S>
+                  <I32 N="Hash">-419347112</I32>
+                </MS>
+              </Obj>
+              <Obj RefId="188">
+                <MS>
+                  <S N="ClassName">ServerComponent_Web_WebServer</S>
+                  <S N="Namespace">ROOT/Microsoft/Windows/ServerManager</S>
+                  <S N="ServerName">WIN-HIOQRG66VRJ</S>
+                  <I32 N="Hash">-419902344</I32>
+                  <S N="MiXml">&lt;CLASS NAME="ServerComponent_Web_WebServer" SUPERCLASS="MSFT_ServerManagerServerComponentDescriptor"&gt;&lt;QUALIFIER NAME="dynamic" TYPE="boolean"&gt;&lt;VALUE&gt;true&lt;/VALUE&gt;&lt;/QUALIFIER&gt;&lt;QUALIFIER NAME="provider" TYPE="string"&gt;&lt;VALUE&gt;deploymentprovider&lt;/VALUE&gt;&lt;/QUALIFIER&gt;&lt;QUALIFIER NAME="ClassVersion" TYPE="string"&gt;&lt;VALUE&gt;0.0.0&lt;/VALUE&gt;&lt;/QUALIFIER&gt;&lt;QUALIFIER NAME="DisplayName" TYPE="string" TRANSLATABLE="true"&gt;&lt;VALUE&gt;Web-WebServer&lt;/VALUE&gt;&lt;/QUALIFIER&gt;&lt;/CLASS&gt;</S>
+                </MS>
+              </Obj>
+            </LST>
+          </Obj>
+        </MS>
+      </Obj>
+      <Obj RefId="189">
+        <TN RefId="49">
+          <T>Microsoft.Management.Infrastructure.CimInstance#ROOT/Microsoft/Windows/ServerManager/ServerComponent_Web_Windows_Auth</T>
+          <T>Microsoft.Management.Infrastructure.CimInstance#ROOT/Microsoft/Windows/ServerManager/MSFT_ServerManagerServerComponentDescriptor</T>
+          <T>Microsoft.Management.Infrastructure.CimInstance#ServerComponent_Web_Windows_Auth</T>
+          <T>Microsoft.Management.Infrastructure.CimInstance#MSFT_ServerManagerServerComponentDescriptor</T>
+          <T>Microsoft.Management.Infrastructure.CimInstance</T>
+          <T>System.Object</T>
+        </TN>
+        <ToString>ServerComponent_Web_Windows_Auth</ToString>
+        <Props>
+          <S N="PSComputerName">WIN-HIOQRG66VRJ</S>
+        </Props>
+        <MS>
+          <I32 N="NumericId">164</I32>
+          <Obj N="__ClassMetadata" RefId="190">
+            <TNRef RefId="2" />
+            <LST>
+              <Obj RefId="191">
+                <MS>
+                  <S N="ClassName">MSFT_ServerManagerServerComponentDescriptor</S>
+                  <S N="Namespace">ROOT/Microsoft/Windows/ServerManager</S>
+                  <S N="ServerName">WIN-HIOQRG66VRJ</S>
+                  <I32 N="Hash">-419347112</I32>
+                </MS>
+              </Obj>
+              <Obj RefId="192">
+                <MS>
+                  <S N="ClassName">ServerComponent_Web_Windows_Auth</S>
+                  <S N="Namespace">ROOT/Microsoft/Windows/ServerManager</S>
+                  <S N="ServerName">WIN-HIOQRG66VRJ</S>
+                  <I32 N="Hash">-419924184</I32>
+                  <S N="MiXml">&lt;CLASS NAME="ServerComponent_Web_Windows_Auth" SUPERCLASS="MSFT_ServerManagerServerComponentDescriptor"&gt;&lt;QUALIFIER NAME="dynamic" TYPE="boolean"&gt;&lt;VALUE&gt;true&lt;/VALUE&gt;&lt;/QUALIFIER&gt;&lt;QUALIFIER NAME="provider" TYPE="string"&gt;&lt;VALUE&gt;deploymentprovider&lt;/VALUE&gt;&lt;/QUALIFIER&gt;&lt;QUALIFIER NAME="ClassVersion" TYPE="string"&gt;&lt;VALUE&gt;0.0.0&lt;/VALUE&gt;&lt;/QUALIFIER&gt;&lt;QUALIFIER NAME="DisplayName" TYPE="string" TRANSLATABLE="true"&gt;&lt;VALUE&gt;Web-Windows-Auth&lt;/VALUE&gt;&lt;/QUALIFIER&gt;&lt;/CLASS&gt;</S>
+                </MS>
+              </Obj>
+            </LST>
+          </Obj>
+        </MS>
+      </Obj>
+      <Obj RefId="193">
+        <TN RefId="50">
+          <T>Microsoft.Management.Infrastructure.CimInstance#ROOT/Microsoft/Windows/ServerManager/ServerComponent_Windows_Internal_Database</T>
+          <T>Microsoft.Management.Infrastructure.CimInstance#ROOT/Microsoft/Windows/ServerManager/MSFT_ServerManagerServerComponentDescriptor</T>
+          <T>Microsoft.Management.Infrastructure.CimInstance#ServerComponent_Windows_Internal_Database</T>
+          <T>Microsoft.Management.Infrastructure.CimInstance#MSFT_ServerManagerServerComponentDescriptor</T>
+          <T>Microsoft.Management.Infrastructure.CimInstance</T>
+          <T>System.Object</T>
+        </TN>
+        <ToString>ServerComponent_Windows_Internal_Database</ToString>
+        <Props>
+          <S N="PSComputerName">WIN-HIOQRG66VRJ</S>
+        </Props>
+        <MS>
+          <I32 N="NumericId">51</I32>
+          <Obj N="__ClassMetadata" RefId="194">
+            <TNRef RefId="2" />
+            <LST>
+              <Obj RefId="195">
+                <MS>
+                  <S N="ClassName">MSFT_ServerManagerServerComponentDescriptor</S>
+                  <S N="Namespace">ROOT/Microsoft/Windows/ServerManager</S>
+                  <S N="ServerName">WIN-HIOQRG66VRJ</S>
+                  <I32 N="Hash">-419347112</I32>
+                </MS>
+              </Obj>
+              <Obj RefId="196">
+                <MS>
+                  <S N="ClassName">ServerComponent_Windows_Internal_Database</S>
+                  <S N="Namespace">ROOT/Microsoft/Windows/ServerManager</S>
+                  <S N="ServerName">WIN-HIOQRG66VRJ</S>
+                  <I32 N="Hash">-419856584</I32>
+                  <S N="MiXml">&lt;CLASS NAME="ServerComponent_Windows_Internal_Database" SUPERCLASS="MSFT_ServerManagerServerComponentDescriptor"&gt;&lt;QUALIFIER NAME="dynamic" TYPE="boolean"&gt;&lt;VALUE&gt;true&lt;/VALUE&gt;&lt;/QUALIFIER&gt;&lt;QUALIFIER NAME="provider" TYPE="string"&gt;&lt;VALUE&gt;deploymentprovider&lt;/VALUE&gt;&lt;/QUALIFIER&gt;&lt;QUALIFIER NAME="ClassVersion" TYPE="string"&gt;&lt;VALUE&gt;8.0.0&lt;/VALUE&gt;&lt;/QUALIFIER&gt;&lt;QUALIFIER NAME="DisplayName" TYPE="string" TRANSLATABLE="true"&gt;&lt;VALUE&gt;Windows-Internal-Database&lt;/VALUE&gt;&lt;/QUALIFIER&gt;&lt;/CLASS&gt;</S>
+                </MS>
+              </Obj>
+            </LST>
+          </Obj>
+        </MS>
+      </Obj>
+    </LST>
+  </Obj>
+</Objs>

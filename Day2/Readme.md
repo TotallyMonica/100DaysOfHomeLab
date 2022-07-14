@@ -1,0 +1,34 @@
+# Day 2 of 100 Days of Homelab
+ - Created a template of Windows Server 2022 (with GUI)
+ - Two linked clones:
+    - Active Directory `MR-HL-ADDC` Server
+        - Directory Services
+        - Certificate Services
+    - Remote Access `MR-HL-RDP` Server
+        - Remote Desktop
+        - Remote Apps
+        - Windows Deployment Services
+ - On `MR-HL-ADDC`:
+    - Installed and configured an Active Directory domain as `monicarose.com`
+    - Created a non-Administrator account
+        - Added to Domain Admins, Domain Users, Remote Desktop Users
+    - Secure password added to the previous account
+    - After configuring the Remote Desktop Services, configured a certificate to enable web access
+    - Added `MR-HL-RDP` as an accessible server
+ - On `MR-HL-RDP`:
+    - Installed Remote Desktop Services with
+        - Remote Desktop Connection Broker
+        - Remote Desktop Gateway
+        - Remote Desktop Licensing
+        - Remote Desktop Session Host
+        - Remote Desktop Web Access
+    - Windows Deployment Services with
+        - Deployment Server
+        - Transport Server
+    - Joined to domain `monicarose.com`
+    - Added remote apps
+        - LiveSplit
+        - Calculator
+        - WordPad
+        - Paint
+    - Launched LiveSplit and Calculator from remote computers on Windows and Linux (via Remmina and `xfreerdp`)
